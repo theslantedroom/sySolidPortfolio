@@ -2,11 +2,11 @@
   "/": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/index-7b75bfc7.js"
+      "href": "/sySolidPortfolio/assets/index-1450419c.js"
     },
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-d2c3403c.js"
+      "href": "/sySolidPortfolio/assets/entry-client-ae737397.js"
     },
     {
       "type": "style",
@@ -16,7 +16,7 @@
   "entry-client": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-d2c3403c.js"
+      "href": "/sySolidPortfolio/assets/entry-client-ae737397.js"
     }
   ],
   "index.html": []
