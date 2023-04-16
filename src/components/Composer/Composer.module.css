@@ -1,0 +1,48 @@
+
+.aboutTitle {
+  margin-bottom: 8px;
+  margin-top: 8px;
+  font-size: 48px;
+  text-shadow: 2px 2px #ffbf00;
+}
+
+.container {
+  background: -moz-linear-gradient(180deg, rgba(90, 14, 24, 1) 0%, rgba(5, 12, 28) 44%);
+  background: -webkit-linear-gradient(180deg, rgba(90, 14, 24, 1) 0%, rgba(5, 12, 28) 44%);
+  background: linear-gradient(180deg, rgba(90, 14, 24, 1) 0%, rgba(5, 12, 28) 44%);
+  size: 30px;
+  padding: 8px;
+}
+
+.aboutText {
+  margin-bottom: 16px;
+  margin-top: 16px;
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+
+.musiclinks {
+  margin: 10px;
+  padding: 0px;
+  color: #ffbf00;
+}
+
+.musiclinks ul {
+  margin: -10px 0px 0px -20px;
+  padding: 0px;
+}
+
+.musiclinks ul li {
+  font-size: 20px;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 0px 10px 5px 10px;
+  margin: 10px;
+  border: 2px solid white;
+  color: #ffbf00;
+}
+
+.musiclinks ul li a {
+  color: #ffbf00;
+}

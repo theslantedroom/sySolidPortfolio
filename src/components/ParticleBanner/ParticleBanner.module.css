@@ -1,0 +1,21 @@
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 200px;
+  height: 20vw;
+  width: 100%;
+  background-image: url(../img/code1.jpg);
+  overflow: hidden;
+}
+
+.banner canvas {
+  font-size: 80px;
+  z-index: 0;
+  margin: 0;
+  padding: 2px;
+  position: relative;
+  top: 10px;
+  /* transform: rotate(8deg); */
+  line-height: .8;
+}
