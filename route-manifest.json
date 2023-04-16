@@ -1,0 +1,23 @@
+{
+  "/": [
+    {
+      "type": "script",
+      "href": "/sySolidPortfolio/assets/index-d4c1b236.js"
+    },
+    {
+      "type": "script",
+      "href": "/sySolidPortfolio/assets/entry-client-1402e862.js"
+    },
+    {
+      "type": "style",
+      "href": "/sySolidPortfolio/assets/index-21ec6383.css"
+    }
+  ],
+  "entry-client": [
+    {
+      "type": "script",
+      "href": "/sySolidPortfolio/assets/entry-client-1402e862.js"
+    }
+  ],
+  "index.html": []
+}
