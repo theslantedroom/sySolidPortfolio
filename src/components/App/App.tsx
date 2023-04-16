@@ -1,6 +1,5 @@
 import type { Component } from "solid-js";
 import { JSX, createSignal, createEffect } from "solid-js";
-import logo from "./logo.svg";
 import styles from "./App.module.css";
 
 interface Project {
