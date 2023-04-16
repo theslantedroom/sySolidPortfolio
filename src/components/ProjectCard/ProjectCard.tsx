@@ -22,28 +22,28 @@ const ProjectCard: Component<Props> = ({
     {
       title: "HBC Boxing",
       description: "Turn Based Hex Grid Boxing",
-      imageUrl: "/img/responsivehHbc.png",
+      imageUrl: "img/responsivehHbc.png",
       technologies: ["React"],
       link: "https://hbc-boxing.meteorapp.com/SignIn",
     },
     {
       title: "Idle Trillionaire",
       description: "Idle Game built with React - JavaScript.",
-      imageUrl: "/img/responsiveTrillionaire.png",
+      imageUrl: "img/responsiveTrillionaire.png",
       technologies: ["React"],
       link: "https://www.idletrillionaire.com/",
     },
     {
       title: "Last Man Standing",
       description: "Interactive Game - Vanilla JavaScript",
-      imageUrl: "/img/responsiveLMS.png",
+      imageUrl: "img/responsiveLMS.png",
       technologies: ["technologies"],
       link: "https://theslantedroom.github.io/Last-Man-Standing-Mini-Game/",
     },
     {
       title: "Stalk Tok",
       description: "React Satire App",
-      imageUrl: "/img/responsivestalk.png",
+      imageUrl: "img/responsivestalk.png",
       technologies: ["Material Ui", "react"],
       link: "https://theslantedroom.github.io/StalkTok/",
     },
@@ -98,7 +98,7 @@ const ProjectCard: Component<Props> = ({
       <img
         class={styles.portfolio__image}
         src={currentProject().imageUrl}
-        alt={currentProject().title}
+        alt={currentProject().imageUrl}
         onClick={viewProject}
       />
       {currentProject().showTechStack ? (
