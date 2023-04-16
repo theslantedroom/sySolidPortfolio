@@ -1,5 +1,5 @@
 import type { Component } from "solid-js";
-import { JSX, createSignal, createEffect } from "solid-js";
+import { JSX, createSignal, createEffect, onMount } from "solid-js";
 import styles from "./ProjectCard.module.css";
 
 interface Project {
@@ -56,6 +56,14 @@ const ProjectCard: Component<Props> = ({
   createEffect(() => {
     setCurrentProject(projects[currentProjectIndex()]);
   }, currentProjectIndex());
+
+  onMount(async () => {
+    projects.forEach((p) => {
+      console.log("load", p.imageUrl);
+      const image = new Image();
+      image.src = p.imageUrl;
+    });
+  });
 
   const handleNextClick = (): void => {
     setCurrentProjectIndex((prevIndex) => {
