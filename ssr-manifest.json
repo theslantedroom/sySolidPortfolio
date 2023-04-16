@@ -33,24 +33,24 @@
   ],
   "node_modules/solid-start/server/types.tsx": [
   ],
-  "src/components/Counter.css": [
-    "/sySolidPortfolio/assets/index-d4c1b236.js",
-    "/sySolidPortfolio/assets/index-21ec6383.css"
+  "src/components/App/App.module.css?used": [
+    "/sySolidPortfolio/assets/index-f3d1666e.js",
+    "/sySolidPortfolio/assets/index-8fa57cf0.css"
   ],
-  "src/components/Counter.tsx": [
-    "/sySolidPortfolio/assets/index-d4c1b236.js",
-    "/sySolidPortfolio/assets/index-21ec6383.css"
+  "src/components/App/App.tsx": [
+    "/sySolidPortfolio/assets/index-f3d1666e.js",
+    "/sySolidPortfolio/assets/index-8fa57cf0.css"
   ],
   "src/entry-client.tsx": [
   ],
   "src/root.tsx": [
   ],
   "src/routes/index.css": [
-    "/sySolidPortfolio/assets/index-d4c1b236.js",
-    "/sySolidPortfolio/assets/index-21ec6383.css"
+    "/sySolidPortfolio/assets/index-f3d1666e.js",
+    "/sySolidPortfolio/assets/index-8fa57cf0.css"
   ],
   "src/routes/index.tsx": [
-    "/sySolidPortfolio/assets/index-d4c1b236.js",
-    "/sySolidPortfolio/assets/index-21ec6383.css"
+    "/sySolidPortfolio/assets/index-f3d1666e.js",
+    "/sySolidPortfolio/assets/index-8fa57cf0.css"
   ]
 }

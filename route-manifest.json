@@ -2,21 +2,21 @@
   "/": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/index-d4c1b236.js"
+      "href": "/sySolidPortfolio/assets/index-f3d1666e.js"
     },
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-1402e862.js"
+      "href": "/sySolidPortfolio/assets/entry-client-aaa5279b.js"
     },
     {
       "type": "style",
-      "href": "/sySolidPortfolio/assets/index-21ec6383.css"
+      "href": "/sySolidPortfolio/assets/index-8fa57cf0.css"
     }
   ],
   "entry-client": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-1402e862.js"
+      "href": "/sySolidPortfolio/assets/entry-client-aaa5279b.js"
     }
   ],
   "index.html": []
