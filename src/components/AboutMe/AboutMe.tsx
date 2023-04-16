@@ -2,8 +2,6 @@ import { createSignal } from "solid-js";
 import styles from "./AboutMe.module.css";
 
 const AboutMe = () => {
-  const [image, setImage] = createSignal("/img/Profile1.jpg");
-
   return (
     <div class={styles.aboutContainer}>
       <div class={styles.aboutSection}>
@@ -48,7 +46,11 @@ const AboutMe = () => {
           and am now building stuff because software development is cool (and
           fun).{" "}
         </p>
-        <img class={styles.aboutImage} src={image()} alt="Game developer" />
+        <img
+          class={styles.aboutImage}
+          src={"img/Profile1.jpg"}
+          alt="profile img"
+        />
       </div>
     </div>
   );
