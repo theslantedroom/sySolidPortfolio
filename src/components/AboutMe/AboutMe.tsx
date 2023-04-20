@@ -15,11 +15,11 @@ const AboutMe = () => {
           <a class={styles.aboutLink} href="#soundengineer-nav">
             sound technician
           </a>
-          . I enjoy mixing concerts, writing and composing{" "}
+          . I mix concerts, write and compose{" "}
           <a class={styles.aboutLink} href="#music-nav" target="blank">
             music for games and media.
           </a>{" "}
-          I also like creating{" "}
+          I create{" "}
           <a
             target="_blank"
             class={styles.aboutLink}
@@ -27,7 +27,7 @@ const AboutMe = () => {
           >
             apps
           </a>{" "}
-          and making both{" "}
+          and make{" "}
           <a
             target="_blank"
             class={styles.aboutLink}
@@ -35,22 +35,9 @@ const AboutMe = () => {
           >
             physical
           </a>{" "}
-          and digital games. I completed at Harvard's CS50 for{" "}
-          <a
-            target="_blank"
-            class={styles.aboutLink}
-            href="https://www.seas.harvard.edu/computer-science"
-          >
-            computer science
-          </a>{" "}
-          and am now building stuff because software development is cool (and
-          fun).{" "}
+          and digital games.
         </p>
-        <img
-          class={styles.aboutImage}
-          src={"img/Profile1.jpg"}
-          alt="profile img"
-        />
+        <img class={styles.aboutImage} src={"img/pic1.png"} alt="profile img" />
       </div>
     </div>
   );
