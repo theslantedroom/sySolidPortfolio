@@ -2,9 +2,9 @@ import type { Component } from "solid-js";
 import { JSX, createSignal, onMount } from "solid-js";
 import Bowser from "bowser";
 
-export const imgBBq = "/img/bbq.jpg";
-export const bacon_heaven = "/img/bacon_heaven.png";
-export const canadian_men_bbq = "/img/canadian_men_bbq.png";
+export const imgBBq = "img/bbq.jpg";
+export const bacon_heaven = "img/bacon_heaven.png";
+export const canadian_men_bbq = "img/canadian_men_bbq.png";
 
 interface Props {
   mainTitle?: string;
