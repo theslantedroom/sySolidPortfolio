@@ -1,12 +1,34 @@
 {
-  "/": [
+  "/bbq": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/index-9815f558.js"
+      "href": "/sySolidPortfolio/assets/bbq-a1d2d26c.js"
     },
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-85f845d6.js"
+      "href": "/sySolidPortfolio/assets/entry-client-5b6a4402.js"
+    },
+    {
+      "type": "script",
+      "href": "/sySolidPortfolio/assets/bowser-269eb377.js"
+    },
+    {
+      "type": "style",
+      "href": "/sySolidPortfolio/assets/bbq-a032d1b5.css"
+    }
+  ],
+  "/": [
+    {
+      "type": "script",
+      "href": "/sySolidPortfolio/assets/index-93908714.js"
+    },
+    {
+      "type": "script",
+      "href": "/sySolidPortfolio/assets/entry-client-5b6a4402.js"
+    },
+    {
+      "type": "script",
+      "href": "/sySolidPortfolio/assets/bowser-269eb377.js"
     },
     {
       "type": "style",
@@ -16,7 +38,7 @@
   "entry-client": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-85f845d6.js"
+      "href": "/sySolidPortfolio/assets/entry-client-5b6a4402.js"
     }
   ],
   "index.html": []
