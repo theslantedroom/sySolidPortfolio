@@ -23,8 +23,8 @@ const ProjectCard: Component<Props> = ({
       title: "HBC Boxing",
       description: "Turn Based Hex Grid Boxing",
       imageUrl: "img/responsivehHbc.png",
-      technologies: ["React"],
-      link: "https://hbc-boxing.meteorapp.com/SignIn",
+      technologies: ["React", "TypeScript", "MongoDb"],
+      link: "https://hbcboxing.online/",
     },
     {
       title: "Idle Trillionaire",
@@ -37,21 +37,20 @@ const ProjectCard: Component<Props> = ({
       title: "Last Man Standing",
       description: "Interactive Game - Vanilla JavaScript",
       imageUrl: "img/responsiveLMS.png",
-      technologies: ["technologies"],
+      technologies: ["HTML", "CSS", "Javascript"],
       link: "https://theslantedroom.github.io/Last-Man-Standing-Mini-Game/",
     },
     {
       title: "Stalk Tok",
       description: "React Satire App",
       imageUrl: "img/responsivestalk.png",
-      technologies: ["Material Ui", "react"],
+      technologies: ["Solid Js"],
       link: "https://theslantedroom.github.io/StalkTok/",
     },
   ],
 }): JSX.Element => {
   const [currentProjectIndex, setCurrentProjectIndex] = createSignal(0);
   const [currentProject, setCurrentProject] = createSignal(projects[0]);
-  console.log("currentProjectIndex", currentProjectIndex());
 
   createEffect(() => {
     setCurrentProject(projects[currentProjectIndex()]);
@@ -87,7 +86,6 @@ const ProjectCard: Component<Props> = ({
     // Open the link in a new tab
     window.open(currentProject().link, "_blank");
   }
-
   return (
     <div class={styles.portfolio}>
       <div class={styles.portfolio__navigation}>
@@ -99,23 +97,22 @@ const ProjectCard: Component<Props> = ({
           {">"}
         </button>
       </div>
-
       <p class={styles.portfolio__description}>
         {currentProject().description}
       </p>
-      <img
-        class={styles.portfolio__image}
-        src={currentProject().imageUrl}
-        alt={currentProject().imageUrl}
-        onClick={viewProject}
-      />
-      {currentProject().showTechStack ? (
+      {currentProject().technologies.length ? (
         <ul class={styles.portfolio__technologies}>
           {currentProject().technologies.map((tech) => (
             <li class={styles.portfolio__technology}>{tech}</li>
           ))}
         </ul>
       ) : null}
+      <img
+        class={styles.portfolio__image}
+        src={currentProject().imageUrl}
+        alt={currentProject().imageUrl}
+        onClick={viewProject}
+      />
     </div>
   );
 };

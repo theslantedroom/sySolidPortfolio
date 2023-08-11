@@ -1,7 +1,5 @@
 import Bowser from "bowser";
 
-console.log("xxx");
-
 const bowser = Bowser.getParser(window?.navigator?.userAgent);
 
 /**

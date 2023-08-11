@@ -25,8 +25,7 @@
 }
 
 .portfolio__image-container {
-  flex-basis: 45%;
-  margin-right: 32px;
+   height:'auto' 
 }
 
 .portfolio__image {
