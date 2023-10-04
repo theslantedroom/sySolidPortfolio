@@ -9,7 +9,6 @@ interface Props {
 }
 
 const WebDev: Component<Props> = ({
-  mainTitle = "Steve Yee",
   skills = [
     "JavaScript",
     "TypeScript",

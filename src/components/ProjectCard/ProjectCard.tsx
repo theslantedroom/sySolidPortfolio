@@ -17,7 +17,6 @@ interface Props {
 }
 
 const ProjectCard: Component<Props> = ({
-  mainTitle = "Steve Yee",
   projects = [
     {
       title: "HBC Boxing",

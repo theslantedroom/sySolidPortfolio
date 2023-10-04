@@ -8,7 +8,6 @@ interface Props {
 }
 
 const Composer: Component<Props> = ({
-  mainTitle = "Steve Yee",
   about = "I have been producing music for media in various genres, with focus on instrumental, orchestral, cinematic, hip-hop, and fanstasy video game music.",
 }): JSX.Element => {
   return (

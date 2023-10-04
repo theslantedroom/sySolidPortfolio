@@ -8,7 +8,6 @@ interface Props {
 }
 
 const SoundEngineer: Component<Props> = ({
-  mainTitle = "Steve Yee",
   about = "I have over 15 years experience mixing FOH and Monitors for concerts, comedians, musical theater, touring bands and music festivals with crowds up to 15,000 people. I have been producing, writing, recording, editing, mixing and mastering in studio as well.",
 }): JSX.Element => {
   return (
