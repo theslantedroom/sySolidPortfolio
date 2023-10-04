@@ -1,7 +1,7 @@
 import "./bbq.css";
 import BBQ from "~/components/BBQ/BBQ";
 
-export default function Home() {
+export default function Bbq() {
   return (
     <main>
       <link
