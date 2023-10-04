@@ -70,15 +70,6 @@ export function IdleTrillionairePrivacyPolicy() {
         If you have any questions or concerns about this privacy policy, please
         contact us at [steve@theslantedroom.ca].
       </p>
-      <h2 style={style}>Play Game</h2>
-      <a
-        href="https://www.idletrillionaire.com/"
-        target="_blank"
-        rel="noreferrer"
-        style={{ ...style }}
-      >
-        Go to Game Now
-      </a>
     </div>
   );
 }
