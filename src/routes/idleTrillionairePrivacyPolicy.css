@@ -2,25 +2,17 @@ body {
   font-family: 'Times New Roman', sans-serif;
   background-color: #252525;
   color: #eee;
-}
+  text-align: left;
+  }
 
 main {
   text-align: left;
-  padding: 0px;
-  margin: 0 auto;
 }
 
 h1 {
   color: #ffffff;
-  text-transform: uppercase;
-  font-size: 1.4rem;
-  padding: 10px;
-  margin: auto;
 }
 
-p {
-  margin: auto;
-}
 
 ul {
   list-style-type:circle;
@@ -30,14 +22,4 @@ ul {
 li {
   list-style-type: circle;
   padding-top: 10px;
-}
-
-@media (min-width: 480px) {
-  h1 {
-    max-width: none;
-  }
-
-  p {
-    max-width: none;
-  }
 }
