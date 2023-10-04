@@ -1,12 +1,22 @@
 {
-  "/bbq": [
+  "/IdleTrillionairePrivacyPolicy": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/bbq-2085e072.js"
+      "href": "/sySolidPortfolio/assets/IdleTrillionairePrivacyPolicy-3cb182db.js"
     },
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-64aa32ce.js"
+      "href": "/sySolidPortfolio/assets/entry-client-1e056455.js"
+    }
+  ],
+  "/bbq": [
+    {
+      "type": "script",
+      "href": "/sySolidPortfolio/assets/bbq-d5b0c853.js"
+    },
+    {
+      "type": "script",
+      "href": "/sySolidPortfolio/assets/entry-client-1e056455.js"
     },
     {
       "type": "script",
@@ -20,11 +30,11 @@
   "/": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/index-98a3a923.js"
+      "href": "/sySolidPortfolio/assets/index-179e438b.js"
     },
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-64aa32ce.js"
+      "href": "/sySolidPortfolio/assets/entry-client-1e056455.js"
     },
     {
       "type": "script",
@@ -38,7 +48,7 @@
   "entry-client": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-64aa32ce.js"
+      "href": "/sySolidPortfolio/assets/entry-client-1e056455.js"
     }
   ],
   "index.html": []
