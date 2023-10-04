@@ -58,59 +58,59 @@
   "node_modules/solid-start/server/types.tsx": [
   ],
   "src/components/AboutMe/AboutMe.module.css?used": [
-    "/sySolidPortfolio/assets/index-78dec706.js",
+    "/sySolidPortfolio/assets/index-642a4c94.js",
     "/sySolidPortfolio/assets/index-96b93e84.css"
   ],
   "src/components/AboutMe/AboutMe.tsx": [
-    "/sySolidPortfolio/assets/index-78dec706.js",
+    "/sySolidPortfolio/assets/index-642a4c94.js",
     "/sySolidPortfolio/assets/index-96b93e84.css"
   ],
   "src/components/BBQ/BBQ.tsx": [
-    "/sySolidPortfolio/assets/bbq-75d6d59d.js",
+    "/sySolidPortfolio/assets/bbq-84adf55a.js",
     "/sySolidPortfolio/assets/bbq-a032d1b5.css"
   ],
   "src/components/Composer/Composer.module.css?used": [
-    "/sySolidPortfolio/assets/index-78dec706.js",
+    "/sySolidPortfolio/assets/index-642a4c94.js",
     "/sySolidPortfolio/assets/index-96b93e84.css"
   ],
   "src/components/Composer/Composer.tsx": [
-    "/sySolidPortfolio/assets/index-78dec706.js",
+    "/sySolidPortfolio/assets/index-642a4c94.js",
     "/sySolidPortfolio/assets/index-96b93e84.css"
   ],
   "src/components/IdleTrillionairePrivacyPolicy/IdleTrillionairePrivacyPolicy.tsx": [
-    "/sySolidPortfolio/assets/IdleTrillionairePrivacyPolicy-36c6787c.js",
+    "/sySolidPortfolio/assets/IdleTrillionairePrivacyPolicy-fd0ebbbe.js",
     "/sySolidPortfolio/assets/IdleTrillionairePrivacyPolicy-d8943798.css"
   ],
   "src/components/ParticleBanner/ParticleBanner.module.css?used": [
-    "/sySolidPortfolio/assets/index-78dec706.js",
+    "/sySolidPortfolio/assets/index-642a4c94.js",
     "/sySolidPortfolio/assets/index-96b93e84.css"
   ],
   "src/components/ParticleBanner/ParticleBanner.tsx": [
-    "/sySolidPortfolio/assets/index-78dec706.js",
+    "/sySolidPortfolio/assets/index-642a4c94.js",
     "/sySolidPortfolio/assets/index-96b93e84.css"
   ],
   "src/components/ProjectCard/ProjectCard.module.css?used": [
-    "/sySolidPortfolio/assets/index-78dec706.js",
+    "/sySolidPortfolio/assets/index-642a4c94.js",
     "/sySolidPortfolio/assets/index-96b93e84.css"
   ],
   "src/components/ProjectCard/ProjectCard.tsx": [
-    "/sySolidPortfolio/assets/index-78dec706.js",
+    "/sySolidPortfolio/assets/index-642a4c94.js",
     "/sySolidPortfolio/assets/index-96b93e84.css"
   ],
   "src/components/SoundEngineer/SoundEngineer.module.css?used": [
-    "/sySolidPortfolio/assets/index-78dec706.js",
+    "/sySolidPortfolio/assets/index-642a4c94.js",
     "/sySolidPortfolio/assets/index-96b93e84.css"
   ],
   "src/components/SoundEngineer/SoundEngineer.tsx": [
-    "/sySolidPortfolio/assets/index-78dec706.js",
+    "/sySolidPortfolio/assets/index-642a4c94.js",
     "/sySolidPortfolio/assets/index-96b93e84.css"
   ],
   "src/components/WebDev/WebDev.module.css?used": [
-    "/sySolidPortfolio/assets/index-78dec706.js",
+    "/sySolidPortfolio/assets/index-642a4c94.js",
     "/sySolidPortfolio/assets/index-96b93e84.css"
   ],
   "src/components/WebDev/WebDev.tsx": [
-    "/sySolidPortfolio/assets/index-78dec706.js",
+    "/sySolidPortfolio/assets/index-642a4c94.js",
     "/sySolidPortfolio/assets/index-96b93e84.css"
   ],
   "src/entry-client.tsx": [
@@ -118,27 +118,27 @@
   "src/root.tsx": [
   ],
   "src/routes/IdleTrillionairePrivacyPolicy.tsx": [
-    "/sySolidPortfolio/assets/IdleTrillionairePrivacyPolicy-36c6787c.js",
+    "/sySolidPortfolio/assets/IdleTrillionairePrivacyPolicy-fd0ebbbe.js",
     "/sySolidPortfolio/assets/IdleTrillionairePrivacyPolicy-d8943798.css"
   ],
   "src/routes/bbq.css": [
-    "/sySolidPortfolio/assets/bbq-75d6d59d.js",
+    "/sySolidPortfolio/assets/bbq-84adf55a.js",
     "/sySolidPortfolio/assets/bbq-a032d1b5.css"
   ],
   "src/routes/bbq.tsx": [
-    "/sySolidPortfolio/assets/bbq-75d6d59d.js",
+    "/sySolidPortfolio/assets/bbq-84adf55a.js",
     "/sySolidPortfolio/assets/bbq-a032d1b5.css"
   ],
   "src/routes/idleTrillionairePrivacyPolicy.css": [
-    "/sySolidPortfolio/assets/IdleTrillionairePrivacyPolicy-36c6787c.js",
+    "/sySolidPortfolio/assets/IdleTrillionairePrivacyPolicy-fd0ebbbe.js",
     "/sySolidPortfolio/assets/IdleTrillionairePrivacyPolicy-d8943798.css"
   ],
   "src/routes/index.css": [
-    "/sySolidPortfolio/assets/index-78dec706.js",
+    "/sySolidPortfolio/assets/index-642a4c94.js",
     "/sySolidPortfolio/assets/index-96b93e84.css"
   ],
   "src/routes/index.tsx": [
-    "/sySolidPortfolio/assets/index-78dec706.js",
+    "/sySolidPortfolio/assets/index-642a4c94.js",
     "/sySolidPortfolio/assets/index-96b93e84.css"
   ]
 }
