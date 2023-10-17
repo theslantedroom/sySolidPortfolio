@@ -2,11 +2,11 @@
   "/IdleTrillionairePrivacyPolicy": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/IdleTrillionairePrivacyPolicy-fd0ebbbe.js"
+      "href": "/sySolidPortfolio/assets/IdleTrillionairePrivacyPolicy-fc1b178f.js"
     },
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-5196c2c0.js"
+      "href": "/sySolidPortfolio/assets/entry-client-b96a945e.js"
     },
     {
       "type": "style",
@@ -16,11 +16,11 @@
   "/bbq": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/bbq-84adf55a.js"
+      "href": "/sySolidPortfolio/assets/bbq-33d05116.js"
     },
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-5196c2c0.js"
+      "href": "/sySolidPortfolio/assets/entry-client-b96a945e.js"
     },
     {
       "type": "script",
@@ -34,11 +34,11 @@
   "/": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/index-642a4c94.js"
+      "href": "/sySolidPortfolio/assets/index-51b487f3.js"
     },
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-5196c2c0.js"
+      "href": "/sySolidPortfolio/assets/entry-client-b96a945e.js"
     },
     {
       "type": "script",
@@ -46,13 +46,13 @@
     },
     {
       "type": "style",
-      "href": "/sySolidPortfolio/assets/index-96b93e84.css"
+      "href": "/sySolidPortfolio/assets/index-ccba8b6e.css"
     }
   ],
   "entry-client": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-5196c2c0.js"
+      "href": "/sySolidPortfolio/assets/entry-client-b96a945e.js"
     }
   ],
   "index.html": []
