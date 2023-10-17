@@ -1,9 +1,14 @@
 
 .aboutTitle {
-  margin-bottom: 8px;
+  margin-bottom: 0px;
   margin-top: 8px;
   font-size: 48px;
+  padding-bottom: 0;
   text-shadow: 2px 2px #ffbf00;
+}
+.description {
+  margin: 0px;
+  padding: 0;
 }
 
 .webDevelopmentInfo {
@@ -17,6 +22,7 @@
   flex-wrap: wrap;
   justify-content: center;
   margin: auto;
+  max-width: 800px;
 }
 
 .skill {

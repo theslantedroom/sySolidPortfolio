@@ -1,20 +1,20 @@
 import type { Component } from "solid-js";
-import { JSX, createSignal, createEffect } from "solid-js";
+import { JSX } from "solid-js";
 import styles from "./SoundEngineer.module.css";
 
-interface Props {
-  about?: string;
-  mainTitle?: string;
-}
+interface Props {}
 
-const SoundEngineer: Component<Props> = ({
-  about = "I have over 15 years experience mixing FOH and Monitors for concerts, comedians, musical theater, touring bands and music festivals. I have been producing, writing, recording, editing, mixing and mastering in studio as well.",
-}): JSX.Element => {
+const SoundEngineer: Component<Props> = ({}): JSX.Element => {
   return (
-    <div class={styles.container}>
+    <div id="soundengineer-nav" class={styles.container}>
       <h1 class={styles.aboutTitle}>Sound Engineering</h1>
 
-      <p class={styles.aboutText}>{about}</p>
+      <p
+        class={styles.aboutText}
+      >{`I have over 15 years experience mixing FOH and Monitors for concerts, comedians, musical theater, touring bands and music festivals. `}</p>
+      <p
+        class={styles.aboutText}
+      >{`I have been producing, writing, recording, editing, mixing and mastering in studio as well.`}</p>
       <img src="img/concertbanner.jpg" alt="concert" class={styles.image} />
     </div>
   );

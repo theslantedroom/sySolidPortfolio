@@ -35,18 +35,15 @@
     line-height: 1.5;
   }
 
-  .aboutLink {
-    color:#ffbf00;
-    text-decoration: underline;
-    transition: color 0.2s ease-in-out;
-  }
 
-  .aboutLink:hover {
-    color: #ffbf00;
+  .noPadding {
+    padding: 0;
+    margin: 0;
   }
 
   .aboutImage {
     margin-top: 32px;
+    width: 300px;
     max-width: 100%;
     box-shadow: 4px 4px #ffbf00;
   }

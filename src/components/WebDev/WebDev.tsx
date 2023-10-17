@@ -1,5 +1,5 @@
 import type { Component } from "solid-js";
-import { JSX, createSignal, createEffect } from "solid-js";
+import { JSX } from "solid-js";
 import styles from "./WebDev.module.css";
 import ProjectCard from "../ProjectCard/ProjectCard";
 
@@ -12,16 +12,18 @@ const WebDev: Component<Props> = ({
   skills = [
     "JavaScript",
     "TypeScript",
+    "Python",
+    "C",
     "React.js",
     "Meteor.js",
+    "Capacitor.js",
+    "Android Studio",
     "Jest",
     "Cypress",
     "material UI",
     "webRTC",
     "HTML",
     "CSS",
-    "C",
-    "Python",
     "Flask",
     "GIT",
     "Mongo",
@@ -31,15 +33,19 @@ const WebDev: Component<Props> = ({
   ],
 }): JSX.Element => {
   return (
-    <div class={styles.webDevelopmentInfo}>
-      <h1 class={styles.aboutTitle}>Web Development</h1>
+    <div id="web-development-nav" class={styles.webDevelopmentInfo}>
+      <h1 class={styles.aboutTitle}>Software Development</h1>
+      <p class={styles.description}>
+        A short list of personal projects and key clients
+      </p>
 
+      <ProjectCard />
+      <h1 class={styles.aboutTitle}>Technologies</h1>
       <p class={styles.skills}>
         {skills.map((s) => (
           <span class={styles.skill}>{s}</span>
         ))}
       </p>
-      <ProjectCard />
     </div>
   );
 };

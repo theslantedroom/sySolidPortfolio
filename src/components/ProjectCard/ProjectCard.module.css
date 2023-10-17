@@ -9,6 +9,11 @@
   align-items: center;
   flex-direction: column;
 }
+.portfolio__navigation {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
 
 .portfolio__title {
   font-size: 36px;
@@ -16,6 +21,9 @@
   margin-top: 1px;
   margin-bottom: 1px;
   text-align: center;
+  align-items: center;
+  display: flex;
+  user-select: none;
 }
 
 .portfolio__main {
@@ -30,7 +38,8 @@
 
 .portfolio__image {
   display: block;
-  max-width: 100%;
+  width: 100%;
+  max-width: 800px;
   cursor: pointer;
 }
 
@@ -43,6 +52,7 @@
   line-height: 1.5;
   margin-top: 8px;
   margin-bottom: 8px;
+  max-width: 800px;
 }
 
 .portfolio__technologies {
@@ -81,6 +91,18 @@
 
 .portfolio__nav_button:hover {
   background-color: #ccc;
+}
+.playstoreImg {
+  width: 100px; 
+  padding: 3px 5px;
+  cursor: pointer;
+}
+
+.linkBtnStack {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
 }
 
 

@@ -46,3 +46,8 @@
 .musiclinks ul li a {
   color: #ffbf00;
 }
+.musicPlayer{
+  margin: auto;
+  width: 100%;
+  max-width: 800px;
+}

@@ -6,6 +6,9 @@ interface Project {
   title: string;
   description: string;
   imageUrl: string;
+  playStoreLink: Location;
+  itchIoLink: Location;
+  playWebLink: Location;
   technologies: string[];
   link: string;
   showTechStack?: boolean;
@@ -19,34 +22,63 @@ interface Props {
 const ProjectCard: Component<Props> = ({
   projects = [
     {
+      title: "Idle Trillionaire",
+      description: "Idle Game built with React - JavaScript.",
+      imageUrl: "img/responsiveTrillionaire.png",
+      technologies: ["React", "Capacitor", "Android Studio"],
+      link: "https://www.idletrillionaire.com/",
+      playStoreLink:
+        "https://play.google.com/store/apps/details?id=com.idletrillionaire.www",
+      itchIoLink: "https://theslantedroom.itch.io/idle-trillionaire",
+      playWebLink: "https://www.idletrillionaire.com/",
+    },
+    {
       title: "HBC Boxing",
       description: "Turn Based Hex Grid Boxing",
       imageUrl: "img/responsivehHbc.png",
       technologies: ["React", "TypeScript", "MongoDb"],
       link: "https://hbcboxing.online/",
+      itchIoLink: "https://theslantedroom.itch.io/hbc-boxing",
+      playWebLink: "https://hbcboxing.online/",
     },
-    {
-      title: "Idle Trillionaire",
-      description: "Idle Game built with React - JavaScript.",
-      imageUrl: "img/responsiveTrillionaire.png",
-      technologies: ["React"],
-      link: "https://www.idletrillionaire.com/",
-    },
+
     {
       title: "Last Man Standing",
       description: "Interactive Game - Vanilla JavaScript",
       imageUrl: "img/responsiveLMS.png",
       technologies: ["HTML", "CSS", "Javascript"],
       link: "https://theslantedroom.github.io/Last-Man-Standing-Mini-Game/",
+      playWebLink:
+        "https://theslantedroom.github.io/Last-Man-Standing-Mini-Game/",
+
+      itchIoLink: "https://theslantedroom.itch.io/last-man-standing-mini-game",
     },
     {
-      title: "Stalk Tok",
-      description: "React Satire App",
-      imageUrl: "img/responsivestalk.png",
-      technologies: ["Solid Js"],
-      link: "https://theslantedroom.github.io/StalkTok/",
+      title: "Client: Sessionwire",
+      description:
+        "Full Stack Developer: Sessionwire Studio is a powerhouse creative communication suite for your production team featuring live video and studio quality HQ Audio.",
+      imageUrl: "img/swImg.png",
+      technologies: [],
+      link: "https://www.sessionwire.com/",
     },
-  ],
+
+    {
+      title: "Client: V-Clubs",
+      description:
+        "Lead Developer - Full Stack - Socialize in virtual venues. Create your own venues or visit venues from all over the world. Video and private text chat. Create private tables. Enjoy venue entertainment and performances.",
+      imageUrl: "img/vclubs.png",
+      technologies: [],
+      link: "https://www.v-clubs.com/",
+    },
+
+    // {
+    //   title: "Stalk Tok",
+    //   description: "React Satire App",
+    //   imageUrl: "img/responsivestalk.png",
+    //   technologies: ["Solid Js", "material Ui"],
+    //   link: "https://theslantedroom.github.io/StalkTok/",
+    // },
+  ] as Project[],
 }): JSX.Element => {
   const [currentProjectIndex, setCurrentProjectIndex] = createSignal(0);
   const [currentProject, setCurrentProject] = createSignal(projects[0]);
@@ -87,11 +119,46 @@ const ProjectCard: Component<Props> = ({
   }
   return (
     <div class={styles.portfolio}>
+      <h1 class={styles.portfolio__title}>{currentProject().title}</h1>
       <div class={styles.portfolio__navigation}>
-        <h1 class={styles.portfolio__title}>{currentProject().title}</h1>
         <button class={styles.portfolio__nav_button} onClick={handlePrevClick}>
           {"<"}
         </button>
+
+        <div class={styles.linkBtnStack}>
+          {currentProject().playStoreLink ? (
+            <img
+              class={styles.playstoreImg}
+              src={"/img/get-it-on-google-play.png"}
+              alt={"getOnGooglePlay"}
+              onClick={() => {
+                window.location = currentProject().playStoreLink;
+              }}
+            />
+          ) : null}
+          {currentProject().itchIoLink ? (
+            <img
+              class={styles.playstoreImg}
+              src={"/img/play_on_itchio.png"}
+              alt={"playOnItchIo"}
+              onClick={() => {
+                window.location = currentProject().itchIoLink;
+              }}
+            />
+          ) : null}
+
+          {currentProject().playWebLink ? (
+            <img
+              class={styles.playstoreImg}
+              src={"/img/play_in_browser.png"}
+              alt={"play_in_browser"}
+              onClick={() => {
+                window.location = currentProject().playWebLink;
+              }}
+            />
+          ) : null}
+        </div>
+
         <button class={styles.portfolio__nav_button} onClick={handleNextClick}>
           {">"}
         </button>
@@ -99,6 +166,7 @@ const ProjectCard: Component<Props> = ({
       <p class={styles.portfolio__description}>
         {currentProject().description}
       </p>
+
       {currentProject().technologies.length ? (
         <ul class={styles.portfolio__technologies}>
           {currentProject().technologies.map((tech) => (
