@@ -129,7 +129,7 @@ const ProjectCard: Component<Props> = ({
           {currentProject().playStoreLink ? (
             <img
               class={styles.playstoreImg}
-              src={"/img/get-it-on-google-play.png"}
+              src={"img/get-it-on-google-play.png"}
               alt={"getOnGooglePlay"}
               onClick={() => {
                 window.location = currentProject().playStoreLink;
@@ -139,7 +139,7 @@ const ProjectCard: Component<Props> = ({
           {currentProject().itchIoLink ? (
             <img
               class={styles.playstoreImg}
-              src={"/img/play_on_itchio.png"}
+              src={"img/play_on_itchio.png"}
               alt={"playOnItchIo"}
               onClick={() => {
                 window.location = currentProject().itchIoLink;
@@ -150,7 +150,7 @@ const ProjectCard: Component<Props> = ({
           {currentProject().playWebLink ? (
             <img
               class={styles.playstoreImg}
-              src={"/img/play_in_browser.png"}
+              src={"img/play_in_browser.png"}
               alt={"play_in_browser"}
               onClick={() => {
                 window.location = currentProject().playWebLink;
