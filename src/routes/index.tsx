@@ -11,7 +11,7 @@ export default function Home() {
       <link
         href="https://fonts.googleapis.com/css2?family=Dhurjati&display=swap"
         rel="stylesheet"
-      ></link>
+      />
       <ParticleBanner />
       <AboutMe />
       <WebDev />

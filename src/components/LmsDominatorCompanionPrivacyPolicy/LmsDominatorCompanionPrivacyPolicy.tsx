@@ -1,16 +1,19 @@
-export function IdleTrillionairePrivacyPolicy() {
+export function LmsDominatorCompanionPrivacyPolicy() {
   const style = {
     color: "white",
   };
 
   return (
     <div style={{ ...style, height: "100%", padding: " 20px" }}>
-      <h2 style={style}>Idle Trillionaire - Privacy Policy</h2>
+      <h2 style={style}>
+        Last Man Standing - Dominator Companion - Privacy Policy
+      </h2>
 
       <p style={style}>
-        This privacy policy applies to our mobile game Idle Trillionaire for iOS
-        and Android devices. We take your privacy seriously, and this policy is
-        designed to inform you about the data we collect and how we use it.
+        This privacy policy applies to our mobile game Last Man Standing -
+        Dominator Companion for iOS and Android devices. We take your privacy
+        seriously, and this policy is designed to inform you about the data we
+        collect and how we use it.
       </p>
 
       <h2 style={style}>Information We Collect</h2>
