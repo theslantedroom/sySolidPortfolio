@@ -2,25 +2,26 @@
   "_bowser-269eb377.js": {
     "file": "assets/bowser-269eb377.js"
   },
+  "privacyPolicy.css": {
+    "file": "assets/privacyPolicy-d8943798.css",
+    "src": "privacyPolicy.css"
+  },
   "src/entry-client.tsx": {
     "dynamicImports": [
       "src/routes/IdleTrillionairePrivacyPolicy.tsx",
       "src/routes/bbq.tsx",
-      "src/routes/index.tsx"
+      "src/routes/index.tsx",
+      "src/routes/lmsDominatorCompantionPrivacyPolicy.tsx"
     ],
-    "file": "assets/entry-client-2089e7bc.js",
+    "file": "assets/entry-client-632a4125.js",
     "isEntry": true,
     "src": "src/entry-client.tsx"
   },
-  "src/routes/IdleTrillionairePrivacyPolicy.css": {
-    "file": "assets/IdleTrillionairePrivacyPolicy-d8943798.css",
-    "src": "src/routes/IdleTrillionairePrivacyPolicy.css"
-  },
   "src/routes/IdleTrillionairePrivacyPolicy.tsx": {
     "css": [
-      "assets/IdleTrillionairePrivacyPolicy-d8943798.css"
+      "assets/privacyPolicy-d8943798.css"
     ],
-    "file": "assets/IdleTrillionairePrivacyPolicy-f03a9ea8.js",
+    "file": "assets/IdleTrillionairePrivacyPolicy-347f1d3f.js",
     "imports": [
       "src/entry-client.tsx"
     ],
@@ -35,7 +36,7 @@
     "css": [
       "assets/bbq-a032d1b5.css"
     ],
-    "file": "assets/bbq-58bfdd48.js",
+    "file": "assets/bbq-8eff59c4.js",
     "imports": [
       "src/entry-client.tsx",
       "_bowser-269eb377.js"
@@ -51,12 +52,23 @@
     "css": [
       "assets/index-9c8627e6.css"
     ],
-    "file": "assets/index-25f36870.js",
+    "file": "assets/index-ab148a44.js",
     "imports": [
       "src/entry-client.tsx",
       "_bowser-269eb377.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/index.tsx"
+  },
+  "src/routes/lmsDominatorCompantionPrivacyPolicy.tsx": {
+    "css": [
+      "assets/privacyPolicy-d8943798.css"
+    ],
+    "file": "assets/lmsDominatorCompantionPrivacyPolicy-10837b14.js",
+    "imports": [
+      "src/entry-client.tsx"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/lmsDominatorCompantionPrivacyPolicy.tsx"
   }
 }

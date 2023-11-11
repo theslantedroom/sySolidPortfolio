@@ -2,25 +2,25 @@
   "/IdleTrillionairePrivacyPolicy": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/IdleTrillionairePrivacyPolicy-f03a9ea8.js"
+      "href": "/sySolidPortfolio/assets/IdleTrillionairePrivacyPolicy-347f1d3f.js"
     },
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-2089e7bc.js"
+      "href": "/sySolidPortfolio/assets/entry-client-632a4125.js"
     },
     {
       "type": "style",
-      "href": "/sySolidPortfolio/assets/IdleTrillionairePrivacyPolicy-d8943798.css"
+      "href": "/sySolidPortfolio/assets/privacyPolicy-d8943798.css"
     }
   ],
   "/bbq": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/bbq-58bfdd48.js"
+      "href": "/sySolidPortfolio/assets/bbq-8eff59c4.js"
     },
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-2089e7bc.js"
+      "href": "/sySolidPortfolio/assets/entry-client-632a4125.js"
     },
     {
       "type": "script",
@@ -34,11 +34,11 @@
   "/": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/index-25f36870.js"
+      "href": "/sySolidPortfolio/assets/index-ab148a44.js"
     },
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-2089e7bc.js"
+      "href": "/sySolidPortfolio/assets/entry-client-632a4125.js"
     },
     {
       "type": "script",
@@ -49,10 +49,24 @@
       "href": "/sySolidPortfolio/assets/index-9c8627e6.css"
     }
   ],
+  "/lmsDominatorCompantionPrivacyPolicy": [
+    {
+      "type": "script",
+      "href": "/sySolidPortfolio/assets/lmsDominatorCompantionPrivacyPolicy-10837b14.js"
+    },
+    {
+      "type": "script",
+      "href": "/sySolidPortfolio/assets/entry-client-632a4125.js"
+    },
+    {
+      "type": "style",
+      "href": "/sySolidPortfolio/assets/privacyPolicy-d8943798.css"
+    }
+  ],
   "entry-client": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-2089e7bc.js"
+      "href": "/sySolidPortfolio/assets/entry-client-632a4125.js"
     }
   ],
   "index.html": []
