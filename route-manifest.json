@@ -1,12 +1,26 @@
 {
-  "/IdleTrillionairePrivacyPolicy": [
+  "/IdleInfluencerPrivacyPolicy": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/IdleTrillionairePrivacyPolicy-347f1d3f.js"
+      "href": "/sySolidPortfolio/assets/IdleInfluencerPrivacyPolicy-a8060aa2.js"
     },
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-632a4125.js"
+      "href": "/sySolidPortfolio/assets/entry-client-999c8e9a.js"
+    },
+    {
+      "type": "style",
+      "href": "/sySolidPortfolio/assets/privacyPolicy-d8943798.css"
+    }
+  ],
+  "/IdleTrillionairePrivacyPolicy": [
+    {
+      "type": "script",
+      "href": "/sySolidPortfolio/assets/IdleTrillionairePrivacyPolicy-f6c0ba2a.js"
+    },
+    {
+      "type": "script",
+      "href": "/sySolidPortfolio/assets/entry-client-999c8e9a.js"
     },
     {
       "type": "style",
@@ -16,11 +30,11 @@
   "/bbq": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/bbq-8eff59c4.js"
+      "href": "/sySolidPortfolio/assets/bbq-1fced0b6.js"
     },
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-632a4125.js"
+      "href": "/sySolidPortfolio/assets/entry-client-999c8e9a.js"
     },
     {
       "type": "script",
@@ -34,11 +48,11 @@
   "/": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/index-ab148a44.js"
+      "href": "/sySolidPortfolio/assets/index-86dbe155.js"
     },
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-632a4125.js"
+      "href": "/sySolidPortfolio/assets/entry-client-999c8e9a.js"
     },
     {
       "type": "script",
@@ -52,11 +66,11 @@
   "/lmsDominatorCompantionPrivacyPolicy": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/lmsDominatorCompantionPrivacyPolicy-10837b14.js"
+      "href": "/sySolidPortfolio/assets/lmsDominatorCompantionPrivacyPolicy-90853a88.js"
     },
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-632a4125.js"
+      "href": "/sySolidPortfolio/assets/entry-client-999c8e9a.js"
     },
     {
       "type": "style",
@@ -66,7 +80,7 @@
   "entry-client": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-632a4125.js"
+      "href": "/sySolidPortfolio/assets/entry-client-999c8e9a.js"
     }
   ],
   "index.html": []
