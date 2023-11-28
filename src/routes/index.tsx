@@ -17,6 +17,8 @@ export default function Home() {
       <WebDev />
       <SoundEngineer />
       <Composer />
+
+      <div>contact: steve@theslantedroom.ca</div>
     </main>
   );
 }
