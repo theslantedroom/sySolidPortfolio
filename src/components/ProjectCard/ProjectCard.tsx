@@ -9,9 +9,12 @@ interface Project {
   playStoreLink: Location;
   itchIoLink: Location;
   playWebLink: Location;
+  iosStoreLink: Location;
+  steamStoreLink: Location;
   technologies: string[];
   link: string;
   showTechStack?: boolean;
+  hasDemo?: boolean;
 }
 
 interface Props {
@@ -23,6 +26,7 @@ const ProjectCard: Component<Props> = ({
   projects = [
     {
       title: "Idle Trillionaire",
+      hasDemo: true,
       description: "Idle Game built with React - JavaScript.",
       imageUrl: "img/responsiveTrillionaire.png",
       technologies: ["React", "Capacitor", "Android Studio"],
@@ -31,15 +35,18 @@ const ProjectCard: Component<Props> = ({
         "https://play.google.com/store/apps/details?id=com.idletrillionaire.www",
       itchIoLink: "https://theslantedroom.itch.io/idle-trillionaire",
       playWebLink: "https://www.idletrillionaire.com/",
+      iosStoreLink:
+        "https://apps.apple.com/us/app/idle-trillionaire-money-game/id6473220418",
+      steamStoreLink: "#",
     },
     {
       title: "HBC Boxing",
       description: "Turn Based Hex Grid Boxing",
       imageUrl: "img/responsivehHbc.png",
       technologies: ["React", "TypeScript", "MongoDb"],
-      link: "https://hbcboxing.online/",
+      link: "https://theslantedroom.itch.io/hbc-boxing",
       itchIoLink: "https://theslantedroom.itch.io/hbc-boxing",
-      playWebLink: "https://hbcboxing.online/",
+      playWebLink: "https://hbc-capacitor.vercel.app/",
     },
 
     {
@@ -128,30 +135,57 @@ const ProjectCard: Component<Props> = ({
         <div class={styles.linkBtnStack}>
           {currentProject().playStoreLink ? (
             <img
-              class={styles.playstoreImg}
+              class={styles.playStoreImg}
               src={"img/get-it-on-google-play.png"}
               alt={"getOnGooglePlay"}
               onClick={() => {
                 window.location = currentProject().playStoreLink;
               }}
             />
+          ) : null}{" "}
+          {currentProject().iosStoreLink ? (
+            <img
+              class={styles.playStoreImg}
+              src={"img/get-it-on-ios.png"}
+              alt={"get-it-on-ios"}
+              onClick={() => {
+                window.location = currentProject().playWebLink;
+              }}
+            />
           ) : null}
           {currentProject().itchIoLink ? (
             <img
-              class={styles.playstoreImg}
-              src={"img/play_on_itchio.png"}
+              class={styles.playStoreImg}
+              src={
+                currentProject().hasDemo
+                  ? "img/play_on_itchio_demo.png"
+                  : "img/play_on_itchio.png"
+              }
               alt={"playOnItchIo"}
               onClick={() => {
                 window.location = currentProject().itchIoLink;
               }}
             />
           ) : null}
-
           {currentProject().playWebLink ? (
             <img
-              class={styles.playstoreImg}
-              src={"img/play_in_browser.png"}
+              class={styles.playStoreImg}
+              src={
+                currentProject().hasDemo
+                  ? "img/play_in_browser_demo.png"
+                  : "img/play_in_browser.png"
+              }
               alt={"play_in_browser"}
+              onClick={() => {
+                window.location = currentProject().playWebLink;
+              }}
+            />
+          ) : null}
+          {currentProject().steamStoreLink ? (
+            <img
+              class={styles.playStoreImg}
+              src={"img/get-it-on-steam-soon.png"}
+              alt={"get-it-on-steam-soon"}
               onClick={() => {
                 window.location = currentProject().playWebLink;
               }}
