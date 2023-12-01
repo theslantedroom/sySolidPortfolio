@@ -27,7 +27,7 @@ const ProjectCard: Component<Props> = ({
     {
       title: "Idle Trillionaire",
       hasDemo: true,
-      description: "Idle Game built with React - JavaScript.",
+      description: "A casual game released on iOS and Android",
       imageUrl: "img/responsiveTrillionaire.png",
       technologies: ["React", "Capacitor", "Android Studio"],
       link: "https://www.idletrillionaire.com/",
