@@ -48,7 +48,7 @@ const WebDev: Component<Props> = ({
         ))}
       </p>
 
-      <h1 class={styles.aboutTitle}>Indie Game Developer</h1>
+      {/* <h1 class={styles.aboutTitle}>Indie Game Developer</h1>
       <p class={styles.description}>
         Your support helps keep new games coming.
       </p>
@@ -62,7 +62,7 @@ const WebDev: Component<Props> = ({
             "_blank"
           );
         }}
-      />
+      /> */}
     </div>
   );
 };
