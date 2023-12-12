@@ -52,6 +52,11 @@ const AboutMe = () => {
 
         <img class={styles.aboutImage} src={"img/pic1.png"} alt="profile img" />
       </div>
+
+      <div class={styles.aboutSection}>
+        <h1 class={styles.aboutTitle}>Contact</h1>
+        <p class={styles.description}>steve@theslantedroom.ca</p>
+      </div>
     </div>
   );
 };
