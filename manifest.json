@@ -14,7 +14,7 @@
       "src/routes/index.tsx",
       "src/routes/lmsDominatorCompantionPrivacyPolicy.tsx"
     ],
-    "file": "assets/entry-client-a099ec33.js",
+    "file": "assets/entry-client-0fce22e3.js",
     "isEntry": true,
     "src": "src/entry-client.tsx"
   },
@@ -22,7 +22,7 @@
     "css": [
       "assets/privacyPolicy-d8943798.css"
     ],
-    "file": "assets/IdleInfluencerPrivacyPolicy-b6e295e3.js",
+    "file": "assets/IdleInfluencerPrivacyPolicy-eaf630ba.js",
     "imports": [
       "src/entry-client.tsx"
     ],
@@ -33,7 +33,7 @@
     "css": [
       "assets/privacyPolicy-d8943798.css"
     ],
-    "file": "assets/IdleTrillionairePrivacyPolicy-304eb4c7.js",
+    "file": "assets/IdleTrillionairePrivacyPolicy-651a2efe.js",
     "imports": [
       "src/entry-client.tsx"
     ],
@@ -48,7 +48,7 @@
     "css": [
       "assets/bbq-a032d1b5.css"
     ],
-    "file": "assets/bbq-5eee2e4c.js",
+    "file": "assets/bbq-cfdc4741.js",
     "imports": [
       "src/entry-client.tsx",
       "_bowser-269eb377.js"
@@ -57,14 +57,14 @@
     "src": "src/routes/bbq.tsx"
   },
   "src/routes/index.css": {
-    "file": "assets/index-402c26ec.css",
+    "file": "assets/index-41ce96f0.css",
     "src": "src/routes/index.css"
   },
   "src/routes/index.tsx": {
     "css": [
-      "assets/index-402c26ec.css"
+      "assets/index-41ce96f0.css"
     ],
-    "file": "assets/index-2c9d926c.js",
+    "file": "assets/index-238bf99c.js",
     "imports": [
       "src/entry-client.tsx",
       "_bowser-269eb377.js"
@@ -76,7 +76,7 @@
     "css": [
       "assets/privacyPolicy-d8943798.css"
     ],
-    "file": "assets/lmsDominatorCompantionPrivacyPolicy-18f3a9d8.js",
+    "file": "assets/lmsDominatorCompantionPrivacyPolicy-8eb7b5a9.js",
     "imports": [
       "src/entry-client.tsx"
     ],
