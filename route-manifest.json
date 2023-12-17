@@ -2,11 +2,11 @@
   "/IdleInfluencerPrivacyPolicy": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/IdleInfluencerPrivacyPolicy-d97d352b.js"
+      "href": "/sySolidPortfolio/assets/IdleInfluencerPrivacyPolicy-70162418.js"
     },
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-76096110.js"
+      "href": "/sySolidPortfolio/assets/entry-client-7928b704.js"
     },
     {
       "type": "style",
@@ -16,11 +16,11 @@
   "/IdleTrillionairePrivacyPolicy": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/IdleTrillionairePrivacyPolicy-5e52a5c1.js"
+      "href": "/sySolidPortfolio/assets/IdleTrillionairePrivacyPolicy-3db5784c.js"
     },
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-76096110.js"
+      "href": "/sySolidPortfolio/assets/entry-client-7928b704.js"
     },
     {
       "type": "style",
@@ -30,11 +30,11 @@
   "/bbq": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/bbq-a02b8d01.js"
+      "href": "/sySolidPortfolio/assets/bbq-dfbd187d.js"
     },
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-76096110.js"
+      "href": "/sySolidPortfolio/assets/entry-client-7928b704.js"
     },
     {
       "type": "script",
@@ -48,11 +48,11 @@
   "/": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/index-7d254b17.js"
+      "href": "/sySolidPortfolio/assets/index-343d0455.js"
     },
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-76096110.js"
+      "href": "/sySolidPortfolio/assets/entry-client-7928b704.js"
     },
     {
       "type": "script",
@@ -66,11 +66,11 @@
   "/lmsDominatorCompantionPrivacyPolicy": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/lmsDominatorCompantionPrivacyPolicy-cd413b50.js"
+      "href": "/sySolidPortfolio/assets/lmsDominatorCompantionPrivacyPolicy-86838098.js"
     },
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-76096110.js"
+      "href": "/sySolidPortfolio/assets/entry-client-7928b704.js"
     },
     {
       "type": "style",
@@ -80,7 +80,7 @@
   "entry-client": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-76096110.js"
+      "href": "/sySolidPortfolio/assets/entry-client-7928b704.js"
     }
   ],
   "index.html": []
