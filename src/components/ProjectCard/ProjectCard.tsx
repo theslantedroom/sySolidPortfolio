@@ -6,11 +6,11 @@ interface Project {
   title: string;
   description: string;
   imageUrl: string;
-  playStoreLink: Location;
-  itchIoLink: Location;
-  playWebLink: Location;
-  iosStoreLink: Location;
-  steamStoreLink: Location;
+  playStoreLink?: Location | string;
+  itchIoLink?: Location | string;
+  playWebLink?: Location | string;
+  iosStoreLink?: Location | string;
+  steamStoreLink?: Location | string;
   technologies: string[];
   link: string;
   showTechStack?: boolean;
@@ -27,9 +27,17 @@ const ProjectCard: Component<Props> = ({
     {
       title: "Idle Trillionaire",
       hasDemo: true,
-      description: "A casual game released on iOS and Android",
+      description: "How big is a trillion?",
       imageUrl: "img/responsiveTrillionaire.png",
-      technologies: ["React", "Capacitor", "Android Studio"],
+      technologies: [
+        "Single Player",
+        "Casual",
+        "Offline Progress",
+        "Load/Save",
+        "Milestones",
+        "Slot Machine",
+        "Mobile",
+      ],
       link: "https://www.idletrillionaire.com/",
       playStoreLink:
         "https://play.google.com/store/apps/details?id=com.idletrillionaire.www",
@@ -41,42 +49,56 @@ const ProjectCard: Component<Props> = ({
     },
     {
       title: "HBC Boxing",
-      description: "Turn Based Hex Grid Boxing",
+      hasDemo: true,
+      description:
+        "Boxing gym management and fight simulation - coming soon to iOS and Android",
       imageUrl: "img/responsivehHbc.png",
-      technologies: ["React", "TypeScript", "MongoDb"],
+      technologies: [
+        "In Development",
+        "single player",
+        "online / PVP (beta)",
+        "training and perks",
+        "change fight strategies between rounds",
+        "turn based control or auto-fight",
+        "perma-death",
+        "promote multiple boxers",
+        "gym quests",
+        "mobile / desktop",
+      ],
       link: "https://theslantedroom.itch.io/hbc-boxing",
       itchIoLink: "https://theslantedroom.itch.io/hbc-boxing",
       playWebLink: "https://hbc-capacitor.vercel.app/",
+      steamStoreLink: "#",
     },
 
-    {
-      title: "Last Man Standing",
-      description: "Interactive Game - Vanilla JavaScript",
-      imageUrl: "img/responsiveLMS.png",
-      technologies: ["HTML", "CSS", "Javascript"],
-      link: "https://theslantedroom.github.io/Last-Man-Standing-Mini-Game/",
-      playWebLink:
-        "https://theslantedroom.github.io/Last-Man-Standing-Mini-Game/",
+    // {
+    //   title: "Last Man Standing",
+    //   description: "Interactive Game - Vanilla JavaScript",
+    //   imageUrl: "img/responsiveLMS.png",
+    //   technologies: ["HTML", "CSS", "Javascript"],
+    //   link: "https://theslantedroom.github.io/Last-Man-Standing-Mini-Game/",
+    //   playWebLink:
+    //     "https://theslantedroom.github.io/Last-Man-Standing-Mini-Game/",
 
-      itchIoLink: "https://theslantedroom.itch.io/last-man-standing-mini-game",
-    },
-    {
-      title: "Client: Sessionwire",
-      description:
-        "Full Stack Developer: Sessionwire Studio is a powerhouse creative communication suite for your production team featuring live video and studio quality HQ Audio.",
-      imageUrl: "img/swImg.png",
-      technologies: [],
-      link: "https://www.sessionwire.com/",
-    },
+    //   itchIoLink: "https://theslantedroom.itch.io/last-man-standing-mini-game",
+    // },
+    // {
+    //   title: "Client: Sessionwire",
+    //   description:
+    //     "Full Stack Developer: Sessionwire Studio is a powerhouse creative communication suite for your production team featuring live video and studio quality HQ Audio.",
+    //   imageUrl: "img/swImg.png",
+    //   technologies: [],
+    //   link: "https://www.sessionwire.com/",
+    // },
 
-    {
-      title: "Client: V-Clubs",
-      description:
-        "Lead Developer - Full Stack - Socialize in virtual venues. Create your own venues or visit venues from all over the world. Video and private text chat. Create private tables. Enjoy venue entertainment and performances.",
-      imageUrl: "img/vclubs.png",
-      technologies: [],
-      link: "https://www.v-clubs.com/",
-    },
+    // {
+    //   title: "Client: V-Clubs",
+    //   description:
+    //     "Lead Developer - Full Stack - Socialize in virtual venues. Create your own venues or visit venues from all over the world. Video and private text chat. Create private tables. Enjoy venue entertainment and performances.",
+    //   imageUrl: "img/vclubs.png",
+    //   technologies: [],
+    //   link: "https://www.v-clubs.com/",
+    // },
 
     // {
     //   title: "Stalk Tok",
@@ -139,7 +161,7 @@ const ProjectCard: Component<Props> = ({
               src={"img/get-it-on-google-play.png"}
               alt={"getOnGooglePlay"}
               onClick={() => {
-                window.location = currentProject().playStoreLink;
+                window.location = currentProject().playStoreLink as Location;
               }}
             />
           ) : null}{" "}
@@ -149,7 +171,7 @@ const ProjectCard: Component<Props> = ({
               src={"img/get-it-on-ios.png"}
               alt={"get-it-on-ios"}
               onClick={() => {
-                window.location = currentProject().playWebLink;
+                window.location = currentProject().playWebLink as Location;
               }}
             />
           ) : null}
@@ -163,7 +185,7 @@ const ProjectCard: Component<Props> = ({
               }
               alt={"playOnItchIo"}
               onClick={() => {
-                window.location = currentProject().itchIoLink;
+                window.location = currentProject().itchIoLink as Location;
               }}
             />
           ) : null}
@@ -177,7 +199,7 @@ const ProjectCard: Component<Props> = ({
               }
               alt={"play_in_browser"}
               onClick={() => {
-                window.location = currentProject().playWebLink;
+                window.location = currentProject().playWebLink as Location;
               }}
             />
           ) : null}
@@ -187,7 +209,7 @@ const ProjectCard: Component<Props> = ({
               src={"img/get-it-on-steam-soon.png"}
               alt={"get-it-on-steam-soon"}
               onClick={() => {
-                window.location = currentProject().playWebLink;
+                window.location = currentProject().playWebLink as Location;
               }}
             />
           ) : null}

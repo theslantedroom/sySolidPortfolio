@@ -11,7 +11,7 @@ const Composer: Component<Props> = ({
 }): JSX.Element => {
   return (
     <div class={styles.container}>
-      <h1 class={styles.aboutTitle}>Composing</h1>
+      <h1 class={styles.aboutTitle}>Music</h1>
       <p class={styles.aboutText}>{about}</p>
       <div class={styles.musicPlayer}>
         <iframe

@@ -15,7 +15,7 @@ export default function Home() {
       <ParticleBanner />
       <AboutMe />
       <WebDev />
-      <SoundEngineer />
+      {/* <SoundEngineer /> */}
       <Composer />
 
       <div>contact: steve@theslantedroom.ca</div>

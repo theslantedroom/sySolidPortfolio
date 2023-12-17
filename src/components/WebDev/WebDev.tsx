@@ -41,12 +41,12 @@ const WebDev: Component<Props> = ({
       </p>
 
       <ProjectCard />
-      <h1 class={styles.aboutTitle}>Technologies</h1>
+      {/* <h1 class={styles.aboutTitle}>Technologies</h1>
       <p class={styles.skills}>
         {skills.map((s) => (
           <span class={styles.skill}>{s}</span>
         ))}
-      </p>
+      </p> */}
 
       {/* <h1 class={styles.aboutTitle}>Indie Game Developer</h1>
       <p class={styles.description}>

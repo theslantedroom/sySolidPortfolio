@@ -67,6 +67,7 @@
   display: inline-block;
   font-size: 14px;
   margin-right: 8px;
+  margin-bottom: 8px;
   padding: 4px 8px;
 }
 
@@ -100,4 +101,5 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 10px;
 }
