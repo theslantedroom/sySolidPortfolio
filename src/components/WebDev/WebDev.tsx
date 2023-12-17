@@ -35,10 +35,10 @@ const WebDev: Component<Props> = ({
 }): JSX.Element => {
   return (
     <div id="web-development-nav" class={styles.webDevelopmentInfo}>
-      <h1 class={styles.aboutTitle}>Projects</h1>
-      <p class={styles.description}>
+      {/* <h1 class={styles.aboutTitle}>Projects</h1> */}
+      {/* <p class={styles.description}>
         A short list of personal projects and key clients
-      </p>
+      </p> */}
 
       <ProjectCard />
       {/* <h1 class={styles.aboutTitle}>Technologies</h1>
