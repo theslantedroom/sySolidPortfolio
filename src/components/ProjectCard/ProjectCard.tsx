@@ -6,11 +6,11 @@ interface Project {
   title: string;
   description: string;
   imageUrl: string;
-  playStoreLink?: Location | string;
-  itchIoLink?: Location | string;
-  playWebLink?: Location | string;
-  iosStoreLink?: Location | string;
-  steamStoreLink?: Location | string;
+  playStoreLink?: URL | string;
+  itchIoLink?: URL | string;
+  playWebLink?: URL | string;
+  iosStoreLink?: URL | string;
+  steamStoreLink?: URL | string;
   technologies: string[];
   link: string;
   showTechStack?: boolean;
@@ -45,7 +45,8 @@ const ProjectCard: Component<Props> = ({
       playWebLink: "https://www.idletrillionaire.com/",
       iosStoreLink:
         "https://apps.apple.com/us/app/idle-trillionaire-money-game/id6473220418",
-      steamStoreLink: "#",
+      steamStoreLink:
+        "https://store.steampowered.com/app/2753100/Idle_Trillionaire/",
     },
     {
       title: "HBC Boxing",
@@ -161,20 +162,37 @@ const ProjectCard: Component<Props> = ({
               src={"img/get-it-on-google-play.png"}
               alt={"getOnGooglePlay"}
               onClick={() => {
-                window.location = currentProject().playStoreLink as Location;
+                window.open(currentProject().playStoreLink, "_blank");
               }}
             />
-          ) : null}{" "}
+          ) : null}
+
           {currentProject().iosStoreLink ? (
             <img
               class={styles.playStoreImg}
               src={"img/get-it-on-ios.png"}
               alt={"get-it-on-ios"}
               onClick={() => {
-                window.location = currentProject().playWebLink as Location;
+                window.open(currentProject().iosStoreLink, "_blank");
               }}
             />
           ) : null}
+
+          {currentProject().steamStoreLink ? (
+            <img
+              class={styles.playStoreImg}
+              src={
+                currentProject().steamStoreLink === "#"
+                  ? "img/get-it-on-steam-soon.png"
+                  : "img/get-it-on-steam.png"
+              }
+              alt={"get-it-on-steam-soon"}
+              onClick={() => {
+                window.open(currentProject().steamStoreLink, "_blank");
+              }}
+            />
+          ) : null}
+
           {currentProject().itchIoLink ? (
             <img
               class={styles.playStoreImg}
@@ -185,10 +203,11 @@ const ProjectCard: Component<Props> = ({
               }
               alt={"playOnItchIo"}
               onClick={() => {
-                window.location = currentProject().itchIoLink as Location;
+                window.open(currentProject().itchIoLink, "_blank");
               }}
             />
           ) : null}
+
           {currentProject().playWebLink ? (
             <img
               class={styles.playStoreImg}
@@ -199,17 +218,7 @@ const ProjectCard: Component<Props> = ({
               }
               alt={"play_in_browser"}
               onClick={() => {
-                window.location = currentProject().playWebLink as Location;
-              }}
-            />
-          ) : null}
-          {currentProject().steamStoreLink ? (
-            <img
-              class={styles.playStoreImg}
-              src={"img/get-it-on-steam-soon.png"}
-              alt={"get-it-on-steam-soon"}
-              onClick={() => {
-                window.location = currentProject().playWebLink as Location;
+                window.open(currentProject().playWebLink, "_blank");
               }}
             />
           ) : null}
