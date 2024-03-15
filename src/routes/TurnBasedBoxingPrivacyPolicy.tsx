@@ -1,23 +1,24 @@
 import "./privacyPolicy.css";
 
-export default function IdleInfluencerPrivacyPolicy() {
+export default function TurnBasedBoxingPrivacyPolicy() {
   const style = {
     color: "white",
   };
+
   return (
     <main>
       <link
         href="https://fonts.googleapis.com/css2?family=Dhurjati&display=swap"
         rel="stylesheet"
       />
-
       <div style={{ ...style, height: "100%", padding: " 20px" }}>
-        <h2 style={style}>Idle Influencer - Privacy Policy</h2>
+        <h2 style={style}>Turn Based Boxing - Privacy Policy</h2>
 
         <p style={style}>
-          This privacy policy applies to our mobile game Idle Influencer for iOS
-          and Android devices. We take your privacy seriously, and this policy
-          is designed to inform you about the data we collect and how we use it.
+          This privacy policy applies to our game Turn Based Boxing for iOS and
+          Android devices and pc. We take your privacy seriously, and this
+          policy is designed to inform you about the data we collect and how we
+          use it.
         </p>
 
         <h2 style={style}>Information We Collect</h2>
@@ -42,7 +43,6 @@ export default function IdleInfluencerPrivacyPolicy() {
         </p>
         <ul>
           <li style={style}>To improve and optimize our game app.</li>
-          <li style={style}>To provide personalized in-game experiences.</li>
           <li style={style}>
             To respond to your requests and provide customer support.
           </li>
