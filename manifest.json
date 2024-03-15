@@ -10,11 +10,12 @@
     "dynamicImports": [
       "src/routes/IdleInfluencerPrivacyPolicy.tsx",
       "src/routes/IdleTrillionairePrivacyPolicy.tsx",
+      "src/routes/TurnBasedBoxingPrivacyPolicy.tsx",
       "src/routes/bbq.tsx",
       "src/routes/index.tsx",
       "src/routes/lmsDominatorCompantionPrivacyPolicy.tsx"
     ],
-    "file": "assets/entry-client-bc754614.js",
+    "file": "assets/entry-client-1aea92ba.js",
     "isEntry": true,
     "src": "src/entry-client.tsx"
   },
@@ -22,7 +23,7 @@
     "css": [
       "assets/privacyPolicy-d8943798.css"
     ],
-    "file": "assets/IdleInfluencerPrivacyPolicy-d6ef9287.js",
+    "file": "assets/IdleInfluencerPrivacyPolicy-da370c7a.js",
     "imports": [
       "src/entry-client.tsx"
     ],
@@ -33,12 +34,23 @@
     "css": [
       "assets/privacyPolicy-d8943798.css"
     ],
-    "file": "assets/IdleTrillionairePrivacyPolicy-cf2ca3d8.js",
+    "file": "assets/IdleTrillionairePrivacyPolicy-6ef75170.js",
     "imports": [
       "src/entry-client.tsx"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/IdleTrillionairePrivacyPolicy.tsx"
+  },
+  "src/routes/TurnBasedBoxingPrivacyPolicy.tsx": {
+    "css": [
+      "assets/privacyPolicy-d8943798.css"
+    ],
+    "file": "assets/TurnBasedBoxingPrivacyPolicy-0787164c.js",
+    "imports": [
+      "src/entry-client.tsx"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/TurnBasedBoxingPrivacyPolicy.tsx"
   },
   "src/routes/bbq.css": {
     "file": "assets/bbq-a032d1b5.css",
@@ -48,7 +60,7 @@
     "css": [
       "assets/bbq-a032d1b5.css"
     ],
-    "file": "assets/bbq-ebf22acb.js",
+    "file": "assets/bbq-446aae4b.js",
     "imports": [
       "src/entry-client.tsx",
       "_bowser-269eb377.js"
@@ -64,7 +76,7 @@
     "css": [
       "assets/index-e546a6f1.css"
     ],
-    "file": "assets/index-9de136ed.js",
+    "file": "assets/index-b332f5f2.js",
     "imports": [
       "src/entry-client.tsx",
       "_bowser-269eb377.js"
@@ -76,7 +88,7 @@
     "css": [
       "assets/privacyPolicy-d8943798.css"
     ],
-    "file": "assets/lmsDominatorCompantionPrivacyPolicy-b9f145da.js",
+    "file": "assets/lmsDominatorCompantionPrivacyPolicy-2f23c8c4.js",
     "imports": [
       "src/entry-client.tsx"
     ],
