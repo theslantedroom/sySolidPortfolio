@@ -72,8 +72,8 @@ const BBQ2024: Component<Props> = ({}): JSX.Element => {
         </h2>
         <h4>
           It is up river on the path not very far from the main parking lot. You
-          can also a park on the street where Tillicum St turns bends and turns
-          into Fraser Park Drive. (closest)
+          can also a park on the street where Tillicum St bends and turns into
+          Fraser Park Drive. (closest)
         </h4>
         <p style={textCss}>Steve Phone # 778 867 6588.</p>
         <p>
