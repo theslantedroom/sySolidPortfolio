@@ -58,59 +58,63 @@
   "node_modules/solid-start/server/types.tsx": [
   ],
   "src/components/AboutMe/AboutMe.module.css?used": [
-    "/sySolidPortfolio/assets/index-b332f5f2.js",
+    "/sySolidPortfolio/assets/index-119da5dd.js",
     "/sySolidPortfolio/assets/index-e546a6f1.css"
   ],
   "src/components/AboutMe/AboutMe.tsx": [
-    "/sySolidPortfolio/assets/index-b332f5f2.js",
+    "/sySolidPortfolio/assets/index-119da5dd.js",
     "/sySolidPortfolio/assets/index-e546a6f1.css"
   ],
   "src/components/BBQ/BBQ.tsx": [
-    "/sySolidPortfolio/assets/bbq-446aae4b.js",
+    "/sySolidPortfolio/assets/bbq-4efae12c.js",
+    "/sySolidPortfolio/assets/bbq-a032d1b5.css"
+  ],
+  "src/components/BBQ/BBQ2024.tsx": [
+    "/sySolidPortfolio/assets/bbq2024-7c4b2e8b.js",
     "/sySolidPortfolio/assets/bbq-a032d1b5.css"
   ],
   "src/components/Composer/Composer.module.css?used": [
-    "/sySolidPortfolio/assets/index-b332f5f2.js",
+    "/sySolidPortfolio/assets/index-119da5dd.js",
     "/sySolidPortfolio/assets/index-e546a6f1.css"
   ],
   "src/components/Composer/Composer.tsx": [
-    "/sySolidPortfolio/assets/index-b332f5f2.js",
+    "/sySolidPortfolio/assets/index-119da5dd.js",
     "/sySolidPortfolio/assets/index-e546a6f1.css"
   ],
   "src/components/IdleTrillionairePrivacyPolicy/IdleTrillionairePrivacyPolicy.tsx": [
-    "/sySolidPortfolio/assets/IdleTrillionairePrivacyPolicy-6ef75170.js",
+    "/sySolidPortfolio/assets/IdleTrillionairePrivacyPolicy-b9b7bc63.js",
     "/sySolidPortfolio/assets/privacyPolicy-d8943798.css"
   ],
   "src/components/LinkWord/LinkWord.tsx": [
-    "/sySolidPortfolio/assets/index-b332f5f2.js",
+    "/sySolidPortfolio/assets/index-119da5dd.js",
     "/sySolidPortfolio/assets/index-e546a6f1.css"
   ],
   "src/components/LmsDominatorCompanionPrivacyPolicy/LmsDominatorCompanionPrivacyPolicy.tsx": [
-    "/sySolidPortfolio/assets/lmsDominatorCompantionPrivacyPolicy-2f23c8c4.js",
+    "/sySolidPortfolio/assets/lmsDominatorCompantionPrivacyPolicy-8f937c14.js",
     "/sySolidPortfolio/assets/privacyPolicy-d8943798.css"
   ],
   "src/components/ParticleBanner/ParticleBanner.module.css?used": [
-    "/sySolidPortfolio/assets/index-b332f5f2.js",
+    "/sySolidPortfolio/assets/index-119da5dd.js",
     "/sySolidPortfolio/assets/index-e546a6f1.css"
   ],
   "src/components/ParticleBanner/ParticleBanner.tsx": [
-    "/sySolidPortfolio/assets/index-b332f5f2.js",
+    "/sySolidPortfolio/assets/index-119da5dd.js",
     "/sySolidPortfolio/assets/index-e546a6f1.css"
   ],
   "src/components/ProjectCard/ProjectCard.module.css?used": [
-    "/sySolidPortfolio/assets/index-b332f5f2.js",
+    "/sySolidPortfolio/assets/index-119da5dd.js",
     "/sySolidPortfolio/assets/index-e546a6f1.css"
   ],
   "src/components/ProjectCard/ProjectCard.tsx": [
-    "/sySolidPortfolio/assets/index-b332f5f2.js",
+    "/sySolidPortfolio/assets/index-119da5dd.js",
     "/sySolidPortfolio/assets/index-e546a6f1.css"
   ],
   "src/components/WebDev/WebDev.module.css?used": [
-    "/sySolidPortfolio/assets/index-b332f5f2.js",
+    "/sySolidPortfolio/assets/index-119da5dd.js",
     "/sySolidPortfolio/assets/index-e546a6f1.css"
   ],
   "src/components/WebDev/WebDev.tsx": [
-    "/sySolidPortfolio/assets/index-b332f5f2.js",
+    "/sySolidPortfolio/assets/index-119da5dd.js",
     "/sySolidPortfolio/assets/index-e546a6f1.css"
   ],
   "src/entry-client.tsx": [
@@ -118,35 +122,35 @@
   "src/root.tsx": [
   ],
   "src/routes/IdleInfluencerPrivacyPolicy.tsx": [
-    "/sySolidPortfolio/assets/IdleInfluencerPrivacyPolicy-da370c7a.js",
+    "/sySolidPortfolio/assets/IdleInfluencerPrivacyPolicy-5022c6b2.js",
     "/sySolidPortfolio/assets/privacyPolicy-d8943798.css"
   ],
   "src/routes/IdleTrillionairePrivacyPolicy.tsx": [
-    "/sySolidPortfolio/assets/IdleTrillionairePrivacyPolicy-6ef75170.js",
+    "/sySolidPortfolio/assets/IdleTrillionairePrivacyPolicy-b9b7bc63.js",
     "/sySolidPortfolio/assets/privacyPolicy-d8943798.css"
   ],
   "src/routes/TurnBasedBoxingPrivacyPolicy.tsx": [
-    "/sySolidPortfolio/assets/TurnBasedBoxingPrivacyPolicy-0787164c.js",
+    "/sySolidPortfolio/assets/TurnBasedBoxingPrivacyPolicy-21198165.js",
     "/sySolidPortfolio/assets/privacyPolicy-d8943798.css"
   ],
-  "src/routes/bbq.css": [
-    "/sySolidPortfolio/assets/bbq-446aae4b.js",
+  "src/routes/bbq.tsx": [
+    "/sySolidPortfolio/assets/bbq-4efae12c.js",
     "/sySolidPortfolio/assets/bbq-a032d1b5.css"
   ],
-  "src/routes/bbq.tsx": [
-    "/sySolidPortfolio/assets/bbq-446aae4b.js",
+  "src/routes/bbq2024.tsx": [
+    "/sySolidPortfolio/assets/bbq2024-7c4b2e8b.js",
     "/sySolidPortfolio/assets/bbq-a032d1b5.css"
   ],
   "src/routes/index.css": [
-    "/sySolidPortfolio/assets/index-b332f5f2.js",
+    "/sySolidPortfolio/assets/index-119da5dd.js",
     "/sySolidPortfolio/assets/index-e546a6f1.css"
   ],
   "src/routes/index.tsx": [
-    "/sySolidPortfolio/assets/index-b332f5f2.js",
+    "/sySolidPortfolio/assets/index-119da5dd.js",
     "/sySolidPortfolio/assets/index-e546a6f1.css"
   ],
   "src/routes/lmsDominatorCompantionPrivacyPolicy.tsx": [
-    "/sySolidPortfolio/assets/lmsDominatorCompantionPrivacyPolicy-2f23c8c4.js",
+    "/sySolidPortfolio/assets/lmsDominatorCompantionPrivacyPolicy-8f937c14.js",
     "/sySolidPortfolio/assets/privacyPolicy-d8943798.css"
   ]
 }

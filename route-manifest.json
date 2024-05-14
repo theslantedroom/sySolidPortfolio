@@ -2,11 +2,11 @@
   "/IdleInfluencerPrivacyPolicy": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/IdleInfluencerPrivacyPolicy-da370c7a.js"
+      "href": "/sySolidPortfolio/assets/IdleInfluencerPrivacyPolicy-5022c6b2.js"
     },
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-1aea92ba.js"
+      "href": "/sySolidPortfolio/assets/entry-client-769baa35.js"
     },
     {
       "type": "style",
@@ -16,11 +16,11 @@
   "/IdleTrillionairePrivacyPolicy": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/IdleTrillionairePrivacyPolicy-6ef75170.js"
+      "href": "/sySolidPortfolio/assets/IdleTrillionairePrivacyPolicy-b9b7bc63.js"
     },
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-1aea92ba.js"
+      "href": "/sySolidPortfolio/assets/entry-client-769baa35.js"
     },
     {
       "type": "style",
@@ -30,11 +30,11 @@
   "/TurnBasedBoxingPrivacyPolicy": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/TurnBasedBoxingPrivacyPolicy-0787164c.js"
+      "href": "/sySolidPortfolio/assets/TurnBasedBoxingPrivacyPolicy-21198165.js"
     },
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-1aea92ba.js"
+      "href": "/sySolidPortfolio/assets/entry-client-769baa35.js"
     },
     {
       "type": "style",
@@ -44,11 +44,11 @@
   "/bbq": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/bbq-446aae4b.js"
+      "href": "/sySolidPortfolio/assets/bbq-4efae12c.js"
     },
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-1aea92ba.js"
+      "href": "/sySolidPortfolio/assets/entry-client-769baa35.js"
     },
     {
       "type": "script",
@@ -59,14 +59,28 @@
       "href": "/sySolidPortfolio/assets/bbq-a032d1b5.css"
     }
   ],
-  "/": [
+  "/bbq2024": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/index-b332f5f2.js"
+      "href": "/sySolidPortfolio/assets/bbq2024-7c4b2e8b.js"
     },
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-1aea92ba.js"
+      "href": "/sySolidPortfolio/assets/entry-client-769baa35.js"
+    },
+    {
+      "type": "style",
+      "href": "/sySolidPortfolio/assets/bbq-a032d1b5.css"
+    }
+  ],
+  "/": [
+    {
+      "type": "script",
+      "href": "/sySolidPortfolio/assets/index-119da5dd.js"
+    },
+    {
+      "type": "script",
+      "href": "/sySolidPortfolio/assets/entry-client-769baa35.js"
     },
     {
       "type": "script",
@@ -80,11 +94,11 @@
   "/lmsDominatorCompantionPrivacyPolicy": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/lmsDominatorCompantionPrivacyPolicy-2f23c8c4.js"
+      "href": "/sySolidPortfolio/assets/lmsDominatorCompantionPrivacyPolicy-8f937c14.js"
     },
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-1aea92ba.js"
+      "href": "/sySolidPortfolio/assets/entry-client-769baa35.js"
     },
     {
       "type": "style",
@@ -94,7 +108,7 @@
   "entry-client": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-1aea92ba.js"
+      "href": "/sySolidPortfolio/assets/entry-client-769baa35.js"
     }
   ],
   "index.html": []
