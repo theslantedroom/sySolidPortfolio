@@ -2,11 +2,11 @@
   "/IdleInfluencerPrivacyPolicy": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/IdleInfluencerPrivacyPolicy-5022c6b2.js"
+      "href": "/sySolidPortfolio/assets/IdleInfluencerPrivacyPolicy-ead3c30d.js"
     },
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-769baa35.js"
+      "href": "/sySolidPortfolio/assets/entry-client-9bcd8ab0.js"
     },
     {
       "type": "style",
@@ -16,11 +16,11 @@
   "/IdleTrillionairePrivacyPolicy": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/IdleTrillionairePrivacyPolicy-b9b7bc63.js"
+      "href": "/sySolidPortfolio/assets/IdleTrillionairePrivacyPolicy-b2a2b259.js"
     },
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-769baa35.js"
+      "href": "/sySolidPortfolio/assets/entry-client-9bcd8ab0.js"
     },
     {
       "type": "style",
@@ -30,11 +30,11 @@
   "/TurnBasedBoxingPrivacyPolicy": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/TurnBasedBoxingPrivacyPolicy-21198165.js"
+      "href": "/sySolidPortfolio/assets/TurnBasedBoxingPrivacyPolicy-50e7188b.js"
     },
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-769baa35.js"
+      "href": "/sySolidPortfolio/assets/entry-client-9bcd8ab0.js"
     },
     {
       "type": "style",
@@ -44,11 +44,11 @@
   "/bbq": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/bbq-4efae12c.js"
+      "href": "/sySolidPortfolio/assets/bbq-aa3a82a6.js"
     },
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-769baa35.js"
+      "href": "/sySolidPortfolio/assets/entry-client-9bcd8ab0.js"
     },
     {
       "type": "script",
@@ -62,11 +62,11 @@
   "/bbq2024": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/bbq2024-7c4b2e8b.js"
+      "href": "/sySolidPortfolio/assets/bbq2024-be5c9ba7.js"
     },
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-769baa35.js"
+      "href": "/sySolidPortfolio/assets/entry-client-9bcd8ab0.js"
     },
     {
       "type": "style",
@@ -76,11 +76,11 @@
   "/": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/index-119da5dd.js"
+      "href": "/sySolidPortfolio/assets/index-e6b54e60.js"
     },
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-769baa35.js"
+      "href": "/sySolidPortfolio/assets/entry-client-9bcd8ab0.js"
     },
     {
       "type": "script",
@@ -94,11 +94,11 @@
   "/lmsDominatorCompantionPrivacyPolicy": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/lmsDominatorCompantionPrivacyPolicy-8f937c14.js"
+      "href": "/sySolidPortfolio/assets/lmsDominatorCompantionPrivacyPolicy-0c248b0d.js"
     },
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-769baa35.js"
+      "href": "/sySolidPortfolio/assets/entry-client-9bcd8ab0.js"
     },
     {
       "type": "style",
@@ -108,7 +108,7 @@
   "entry-client": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-769baa35.js"
+      "href": "/sySolidPortfolio/assets/entry-client-9bcd8ab0.js"
     }
   ],
   "index.html": []
