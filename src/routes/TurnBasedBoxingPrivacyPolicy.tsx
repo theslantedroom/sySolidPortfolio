@@ -7,10 +7,6 @@ export default function TurnBasedBoxingPrivacyPolicy() {
 
   return (
     <main>
-      <link
-        href="https://fonts.googleapis.com/css2?family=Dhurjati&display=swap"
-        rel="stylesheet"
-      />
       <div style={{ ...style, height: "100%", padding: " 20px" }}>
         <h2 style={style}>Turn Based Boxing - Privacy Policy</h2>
 

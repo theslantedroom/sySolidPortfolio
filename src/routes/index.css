@@ -1,5 +1,9 @@
 body {
-  font-family: 'Dhurjati', sans-serif;
+  /* font-family: 'Dhurjati', sans-serif; */
+  /* font-family: "PT Sans Narrow", sans-serif; */
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 400;
+  font-style: normal;
   background-color: #252525;
   color: #eee;
 }
@@ -18,8 +22,6 @@ h1 {
   margin: 4rem auto;
 }
 
-
-
 @media (min-width: 480px) {
   h1 {
     max-width: none;
@@ -28,4 +30,8 @@ h1 {
   p {
     max-width: none;
   }
+}
+
+a {
+  color: rgb(186, 199, 0);
 }

@@ -7,7 +7,7 @@ interface Props {
 }
 
 const Composer: Component<Props> = ({
-  about = "I produce music for media in various genres, with focus on instrumental, orchestral, cinematic, hip-hop and video game music.",
+  about = "Music for media in various genres. Instrumental, orchestral, cinematic, hip-hop and video game music.",
 }): JSX.Element => {
   return (
     <div class={styles.container}>
@@ -42,22 +42,10 @@ const Composer: Component<Props> = ({
           </a>
         </div>
       </div>
-      <div class={styles.musiclinks}>
-        <ul>
-          <li>
-            <a href="https://theslantedroom.ca/" target="blank">
-              theSlantedRoom.ca
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.pond5.com/artist/theslantedroom"
-              target="blank"
-            >
-              Music Licensing
-            </a>
-          </li>
-        </ul>
+      <div>
+        <a href="https://www.pond5.com/artist/theslantedroom" target="blank">
+          Music Licensing
+        </a>
       </div>
     </div>
   );

@@ -36,7 +36,6 @@ const AboutMe = () => {
       </div>
 
       <div class={styles.aboutSection}>
-        <h1 class={styles.aboutTitle}>Contact</h1>
         <p class={styles.description}>steve@theslantedroom.ca</p>
       </div>
     </div>

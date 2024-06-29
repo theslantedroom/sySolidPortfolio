@@ -6,11 +6,6 @@ export default function IdleInfluencerPrivacyPolicy() {
   };
   return (
     <main>
-      <link
-        href="https://fonts.googleapis.com/css2?family=Dhurjati&display=swap"
-        rel="stylesheet"
-      />
-
       <div style={{ ...style, height: "100%", padding: " 20px" }}>
         <h2 style={style}>Idle Influencer - Privacy Policy</h2>
 

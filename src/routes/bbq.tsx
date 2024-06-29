@@ -4,10 +4,6 @@ import BBQ from "~/components/BBQ/BBQ";
 export default function Bbq() {
   return (
     <main>
-      <link
-        href="https://fonts.googleapis.com/css2?family=Dhurjati&display=swap"
-        rel="stylesheet"
-      ></link>
       <BBQ />
     </main>
   );
