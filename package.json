@@ -7,9 +7,6 @@
     "build": "solid-start build",
     "start": "solid-start start",
     "test": "vitest run",
-    "test-watch": "vitest",
-    "test-ui": "vitest --ui",
-    "coverage": "vitest run --coverage",
     "check-versions": "npx npm-check-updates -p yarn"
   },
   "devDependencies": {
@@ -17,10 +14,8 @@
     "@solidjs/meta": "^0.28.2",
     "@solidjs/router": "^0.8.2",
     "@solidjs/testing-library": "^0.5.2",
-    "@testing-library/jest-dom": "^5.16.5",
     "@types/testing-library__jest-dom": "^5.14.5",
     "@vitest/coverage-c8": "^0.26.3",
-    "@vitest/ui": "^0.26.3",
     "eslint": "9.x",
     "globals": "^15.6.0",
     "jsdom": "^24.1.0",
@@ -29,9 +24,7 @@
     "solid-start-static": "^0.2.26",
     "typescript": "^5.5.2",
     "typescript-eslint": "^7.14.1",
-    "undici": "^5.15.1",
-    "vite": "^4.1.4",
-    "vitest": "^0.26.3"
+    "vite": "^4.1.4"
   },
   "dependencies": {
     "bowser": "^2.11.0"
