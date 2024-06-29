@@ -71,43 +71,6 @@ const ProjectCard: Component<Props> = ({
       playWebLink: "https://hbc-capacitor.vercel.app/",
       steamStoreLink: "#",
     },
-
-    // {
-    //   title: "Last Man Standing",
-    //   description: "Interactive Game - Vanilla JavaScript",
-    //   imageUrl: "img/responsiveLMS.png",
-    //   technologies: ["HTML", "CSS", "Javascript"],
-    //   link: "https://theslantedroom.github.io/Last-Man-Standing-Mini-Game/",
-    //   playWebLink:
-    //     "https://theslantedroom.github.io/Last-Man-Standing-Mini-Game/",
-
-    //   itchIoLink: "https://theslantedroom.itch.io/last-man-standing-mini-game",
-    // },
-    // {
-    //   title: "Client: Sessionwire",
-    //   description:
-    //     "Full Stack Developer: Sessionwire Studio is a powerhouse creative communication suite for your production team featuring live video and studio quality HQ Audio.",
-    //   imageUrl: "img/swImg.png",
-    //   technologies: [],
-    //   link: "https://www.sessionwire.com/",
-    // },
-
-    // {
-    //   title: "Client: V-Clubs",
-    //   description:
-    //     "Lead Developer - Full Stack - Socialize in virtual venues. Create your own venues or visit venues from all over the world. Video and private text chat. Create private tables. Enjoy venue entertainment and performances.",
-    //   imageUrl: "img/vclubs.png",
-    //   technologies: [],
-    //   link: "https://www.v-clubs.com/",
-    // },
-
-    // {
-    //   title: "Stalk Tok",
-    //   description: "React Satire App",
-    //   imageUrl: "img/responsivestalk.png",
-    //   technologies: ["Solid Js", "material Ui"],
-    //   link: "https://theslantedroom.github.io/StalkTok/",
-    // },
   ] as Project[],
 }): JSX.Element => {
   const [currentProjectIndex, setCurrentProjectIndex] = createSignal(0);
@@ -143,7 +106,7 @@ const ProjectCard: Component<Props> = ({
     });
   };
 
-  function viewProject(url) {
+  function viewProject() {
     // Open the link in a new tab
     window.open(currentProject().link, "_blank");
   }
