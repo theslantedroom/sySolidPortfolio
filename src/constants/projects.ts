@@ -44,6 +44,7 @@ export const myProjects: Project[] = [
     steamStoreLink:
       "https://store.steampowered.com/app/2753100/Idle_Trillionaire/",
   },
+
   {
     title: "Turn Based Boxing",
     chipColor: "#870000",
@@ -63,13 +64,60 @@ export const myProjects: Project[] = [
     ],
     link: "https://theslantedroom.itch.io/hbc-boxing",
 
-    iosStoreLink: "#",
-    epicGamesLink:
-      "https://store.epicgames.com/en-US/p/idle-trillionaire-17afee",
-    playStoreLink: "#",
+    // iosStoreLink: "#",
+    // epicGamesLink: "#",
+    // playStoreLink: "#",
     itchIoLink: "https://theslantedroom.itch.io/hbc-boxing",
     playWebLink: "https://www.hbcboxing.online/",
     steamStoreLink:
       "https://store.steampowered.com/app/2990450/Turn_Based_Boxing_Legends/",
+  },
+  {
+    title: "Kitty Krush",
+    chipColor: "#8f3996",
+    hasDemo: true,
+    description: "Like Poker but with cats.... (coming 2025)",
+    imageUrl: "img/responsiveKittyKrush.png",
+    technologies: [
+      "Rogue like deck builder",
+      "Cat cards",
+      "Unlock deck modifier cards",
+      "Perma-Death",
+    ],
+    link: "https://theslantedroom.itch.io/hbc-boxing",
+
+    // iosStoreLink: "#",
+    // epicGamesLink: "#",
+    // playStoreLink: "#",
+    // itchIoLink: "https://theslantedroom.itch.io/hbc-boxing",
+    playWebLink: "https://kitty-krush.vercel.app/",
+    // steamStoreLink:
+    //   "https://store.steampowered.com/app/2990450/Turn_Based_Boxing_Legends/",
+  },
+
+  {
+    title: "Idle Influencer 2.0",
+    chipColor: "#300c66",
+    hasDemo: true,
+    description:
+      "Idle Influencer takes place inside the Idle Trillionaire universe. Welcome to the trillionaire's social media journey.",
+    imageUrl: "img/responsiveInfluencer.png",
+    technologies: [
+      "Casual",
+      "Offline Progress",
+      "Load/Save",
+      "Milestones",
+      "Prestige",
+      "Unlock Cards",
+      "Unlock Meme Videos",
+    ],
+    link: "https://idle-influencer.vercel.app/",
+    playStoreLink:
+      "https://play.google.com/store/apps/details?id=com.idle_influencer.www&hl=en_CA",
+    itchIoLink: "https://theslantedroom.itch.io/idle-influencer",
+    playWebLink: "https://idle-influencer.vercel.app/",
+    epicGamesLink: "",
+    iosStoreLink:
+      "https://apps.apple.com/us/app/idle-influencer-followers-lol/id6474143547",
   },
 ];
