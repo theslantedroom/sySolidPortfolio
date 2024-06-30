@@ -96,7 +96,7 @@ export const myProjects: Project[] = [
   },
 
   {
-    title: "Idle Influencer 2.0",
+    title: "Idle Influencer",
     chipColor: "#300c66",
     hasDemo: true,
     description:
