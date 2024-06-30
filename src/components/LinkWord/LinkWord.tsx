@@ -1,11 +1,17 @@
 const LinkWord = ({ text, url }) => {
-  const style = { color: "#ffbf00", textDecoration: "none" };
+  const style = {
+    color: "#ffbf00",
+    textDecoration: "none !important",
+    cursor: "pointer",
+  };
   return (
-    <>
-      <a style={style} href={url} target="_blank">
-        {`${text}`}
-      </a>
-    </>
+    <span
+      style={style}
+      onClick={() => window.open(url, "_blank")}
+      rel="noopener noreferrer"
+    >
+      {text}
+    </span>
   );
 };
 
