@@ -120,4 +120,20 @@ export const myProjects: Project[] = [
     iosStoreLink:
       "https://apps.apple.com/us/app/idle-influencer-followers-lol/id6474143547",
   },
+  {
+    title: "Last Man Standing",
+    chipColor: "#300c66",
+    hasDemo: true,
+    description:
+      "Last Man Standing is a Board Game and spin off basic web game.",
+    imageUrl: "img/responsiveLMS.png",
+    technologies: ["Board Game - 2-4 players", "Web Game - single player"],
+    link: "https://theslantedroom.github.io/Last-Man-Standing-Mini-Game/",
+    playStoreLink: "",
+    itchIoLink: "https://theslantedroom.itch.io/last-man-standing-mini-game",
+    playWebLink:
+      "https://theslantedroom.github.io/Last-Man-Standing-Mini-Game/",
+    epicGamesLink: "",
+    iosStoreLink: "",
+  },
 ];
