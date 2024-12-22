@@ -6,13 +6,8 @@ const AboutMe = () => {
     <div class={styles.aboutContainer}>
       <div class={styles.aboutSection}>
         <div class={styles.noPadding}>
-          <span
-            class={styles.aboutText}
-          >{`The Slanted Room is just a guy who creates `}</span>
-          <LinkWord
-            text={"video games and apps"}
-            url={"#web-development-nav"}
-          />
+          <span class={styles.aboutText}>{`The Slanted Room makes `}</span>
+          <LinkWord text={"video games"} url={"#web-development-nav"} />
           <span class={styles.aboutText}>{`, `}</span>
           <LinkWord
             text={"music"}
@@ -29,7 +24,7 @@ const AboutMe = () => {
         </div>
 
         <div>
-          <span class={styles.aboutText}>{`I also license `}</span>
+          <span class={styles.aboutText}>{`We also create `}</span>
           <LinkWord
             text={"music for games and media"}
             url={"https://www.pond5.com/artist/theslantedroom"}

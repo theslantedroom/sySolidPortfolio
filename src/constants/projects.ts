@@ -125,7 +125,7 @@ export const myProjects: Project[] = [
     chipColor: "#300c66",
     hasDemo: true,
     description:
-      "Last Man Standing is a Board Game and spin off basic web game.",
+      "Last Man Standing is a Board Game. This is a simplified spin off / web game.",
     imageUrl: "img/responsiveLMS.png",
     technologies: ["Board Game - 2-4 players", "Web Game - single player"],
     link: "https://theslantedroom.github.io/Last-Man-Standing-Mini-Game/",
