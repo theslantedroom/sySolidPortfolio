@@ -63,7 +63,6 @@ export const myProjects: Project[] = [
       "Auto-Fight",
     ],
     link: "https://theslantedroom.itch.io/hbc-boxing",
-
     // iosStoreLink: "#",
     // epicGamesLink: "#",
     // playStoreLink: "#",
@@ -85,14 +84,7 @@ export const myProjects: Project[] = [
       "Perma-Death",
     ],
     link: "https://theslantedroom.itch.io/hbc-boxing",
-
-    // iosStoreLink: "#",
-    // epicGamesLink: "#",
-    // playStoreLink: "#",
-    // itchIoLink: "https://theslantedroom.itch.io/hbc-boxing",
     playWebLink: "https://kitty-krush.vercel.app/",
-    // steamStoreLink:
-    //   "https://store.steampowered.com/app/2990450/Turn_Based_Boxing_Legends/",
   },
 
   {
