@@ -90,7 +90,7 @@ export const myProjects: Project[] = [
   {
     title: "Idle Influencer",
     chipColor: "#300c66",
-    hasDemo: true,
+    hasDemo: false,
     description:
       "Idle Influencer takes place inside the Idle Trillionaire universe. Welcome to the trillionaire's social media journey.",
     imageUrl: "img/responsiveInfluencer.png",
