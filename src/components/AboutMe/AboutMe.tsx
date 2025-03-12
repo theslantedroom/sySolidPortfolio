@@ -17,7 +17,7 @@ const AboutMe = () => {
           <LinkWord
             text={"board games"}
             url={
-              "https://www.thegamecrafter.com/games/last-man-standing-the-adventure-game"
+              "https://www.thegamecrafter.com/games/last-man-standing-definitive-edition"
             }
           />
           <span class={styles.aboutText}>{`.`}</span>
