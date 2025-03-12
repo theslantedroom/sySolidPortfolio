@@ -20,7 +20,7 @@
       "src/routes/index.tsx",
       "src/routes/lmsDominatorCompantionPrivacyPolicy.tsx"
     ],
-    "file": "assets/entry-client-c16a541a.js",
+    "file": "assets/entry-client-b12b8153.js",
     "isEntry": true,
     "src": "src/entry-client.tsx"
   },
@@ -28,7 +28,7 @@
     "css": [
       "assets/privacyPolicy-d8943798.css"
     ],
-    "file": "assets/IdleInfluencerPrivacyPolicy-fbb2fcfd.js",
+    "file": "assets/IdleInfluencerPrivacyPolicy-3e3a32e3.js",
     "imports": [
       "src/entry-client.tsx"
     ],
@@ -39,7 +39,7 @@
     "css": [
       "assets/privacyPolicy-d8943798.css"
     ],
-    "file": "assets/IdleTrillionairePrivacyPolicy-55a02193.js",
+    "file": "assets/IdleTrillionairePrivacyPolicy-562773f7.js",
     "imports": [
       "src/entry-client.tsx"
     ],
@@ -50,7 +50,7 @@
     "css": [
       "assets/privacyPolicy-d8943798.css"
     ],
-    "file": "assets/TurnBasedBoxingPrivacyPolicy-bf9654e1.js",
+    "file": "assets/TurnBasedBoxingPrivacyPolicy-dcedb4f0.js",
     "imports": [
       "src/entry-client.tsx"
     ],
@@ -61,7 +61,7 @@
     "css": [
       "assets/bbq-a032d1b5.css"
     ],
-    "file": "assets/bbq-d5d81ceb.js",
+    "file": "assets/bbq-9feb09fd.js",
     "imports": [
       "src/entry-client.tsx",
       "_bowser-269eb377.js"
@@ -73,7 +73,7 @@
     "css": [
       "assets/bbq-a032d1b5.css"
     ],
-    "file": "assets/bbq2024-35a03d46.js",
+    "file": "assets/bbq2024-d7c7cf22.js",
     "imports": [
       "src/entry-client.tsx"
     ],
@@ -88,7 +88,7 @@
     "css": [
       "assets/index-0844912c.css"
     ],
-    "file": "assets/index-47a8c5d2.js",
+    "file": "assets/index-2d530a90.js",
     "imports": [
       "src/entry-client.tsx",
       "_bowser-269eb377.js"
@@ -100,7 +100,7 @@
     "css": [
       "assets/privacyPolicy-d8943798.css"
     ],
-    "file": "assets/lmsDominatorCompantionPrivacyPolicy-b2853e02.js",
+    "file": "assets/lmsDominatorCompantionPrivacyPolicy-48404e82.js",
     "imports": [
       "src/entry-client.tsx"
     ],
