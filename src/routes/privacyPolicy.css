@@ -1,9 +1,9 @@
 body {
-  font-family: 'Times New Roman', sans-serif;
+  font-family: "VT323", sans-serif;
   background-color: #252525;
   color: #eee;
   text-align: left;
-  }
+}
 
 main {
   text-align: left;
@@ -13,9 +13,8 @@ h1 {
   color: #ffffff;
 }
 
-
 ul {
-  list-style-type:circle;
+  list-style-type: circle;
   margin: auto;
 }
 

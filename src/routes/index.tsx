@@ -7,6 +7,11 @@ import "./index.css";
 export default function Home() {
   return (
     <main>
+      <link
+        href="https://fonts.googleapis.com/css?family=VT323"
+        rel="stylesheet"
+        type="text/css"
+      ></link>
       {/* Fonts Preload*/}
       <link
         rel="preconnect"

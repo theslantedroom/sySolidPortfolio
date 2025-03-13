@@ -1,5 +1,5 @@
 body {
-  font-family: 'Times New Roman', sans-serif;
+  font-family: "VT323", sans-serif;
   background-color: #252525;
   color: #eee;
 }
@@ -23,7 +23,7 @@ p {
 }
 
 ul {
-  list-style-type:circle;
+  list-style-type: circle;
   margin: auto;
 }
 

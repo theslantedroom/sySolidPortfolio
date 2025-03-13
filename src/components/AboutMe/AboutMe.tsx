@@ -13,21 +13,12 @@ const AboutMe = () => {
             text={"music"}
             url={"https://www.pond5.com/artist/theslantedroom"}
           />
-          <span class={styles.aboutText}>{` and `}</span>
+          <span class={styles.aboutText}>{`, `}</span>
           <LinkWord
             text={"board games"}
             url={
               "https://www.thegamecrafter.com/games/last-man-standing-definitive-edition"
             }
-          />
-          <span class={styles.aboutText}>{`.`}</span>
-        </div>
-
-        <div>
-          <span class={styles.aboutText}>{`We also create `}</span>
-          <LinkWord
-            text={"music for games and media"}
-            url={"https://www.pond5.com/artist/theslantedroom"}
           />
           <span class={styles.aboutText}>{`.`}</span>
         </div>
