@@ -2,113 +2,77 @@
   "/IdleInfluencerPrivacyPolicy": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/IdleInfluencerPrivacyPolicy-3e3a32e3.js"
+      "href": "/sySolidPortfolio/assets/IdleInfluencerPrivacyPolicy-4e99da1b.js"
     },
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-b12b8153.js"
+      "href": "/sySolidPortfolio/assets/entry-client-7ceddd82.js"
     },
     {
       "type": "style",
-      "href": "/sySolidPortfolio/assets/privacyPolicy-d8943798.css"
+      "href": "/sySolidPortfolio/assets/privacyPolicy-40c26bd1.css"
     }
   ],
   "/IdleTrillionairePrivacyPolicy": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/IdleTrillionairePrivacyPolicy-562773f7.js"
+      "href": "/sySolidPortfolio/assets/IdleTrillionairePrivacyPolicy-4d5ab8f4.js"
     },
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-b12b8153.js"
+      "href": "/sySolidPortfolio/assets/entry-client-7ceddd82.js"
     },
     {
       "type": "style",
-      "href": "/sySolidPortfolio/assets/privacyPolicy-d8943798.css"
+      "href": "/sySolidPortfolio/assets/privacyPolicy-40c26bd1.css"
     }
   ],
   "/TurnBasedBoxingPrivacyPolicy": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/TurnBasedBoxingPrivacyPolicy-dcedb4f0.js"
+      "href": "/sySolidPortfolio/assets/TurnBasedBoxingPrivacyPolicy-abceb7aa.js"
     },
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-b12b8153.js"
+      "href": "/sySolidPortfolio/assets/entry-client-7ceddd82.js"
     },
     {
       "type": "style",
-      "href": "/sySolidPortfolio/assets/privacyPolicy-d8943798.css"
-    }
-  ],
-  "/bbq": [
-    {
-      "type": "script",
-      "href": "/sySolidPortfolio/assets/bbq-9feb09fd.js"
-    },
-    {
-      "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-b12b8153.js"
-    },
-    {
-      "type": "script",
-      "href": "/sySolidPortfolio/assets/bowser-269eb377.js"
-    },
-    {
-      "type": "style",
-      "href": "/sySolidPortfolio/assets/bbq-a032d1b5.css"
-    }
-  ],
-  "/bbq2024": [
-    {
-      "type": "script",
-      "href": "/sySolidPortfolio/assets/bbq2024-d7c7cf22.js"
-    },
-    {
-      "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-b12b8153.js"
-    },
-    {
-      "type": "style",
-      "href": "/sySolidPortfolio/assets/bbq-a032d1b5.css"
+      "href": "/sySolidPortfolio/assets/privacyPolicy-40c26bd1.css"
     }
   ],
   "/": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/index-2d530a90.js"
+      "href": "/sySolidPortfolio/assets/index-c176ffad.js"
     },
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-b12b8153.js"
-    },
-    {
-      "type": "script",
-      "href": "/sySolidPortfolio/assets/bowser-269eb377.js"
+      "href": "/sySolidPortfolio/assets/entry-client-7ceddd82.js"
     },
     {
       "type": "style",
-      "href": "/sySolidPortfolio/assets/index-0844912c.css"
+      "href": "/sySolidPortfolio/assets/index-3ce3df60.css"
     }
   ],
   "/lmsDominatorCompantionPrivacyPolicy": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/lmsDominatorCompantionPrivacyPolicy-48404e82.js"
+      "href": "/sySolidPortfolio/assets/lmsDominatorCompantionPrivacyPolicy-ee339b68.js"
     },
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-b12b8153.js"
+      "href": "/sySolidPortfolio/assets/entry-client-7ceddd82.js"
     },
     {
       "type": "style",
-      "href": "/sySolidPortfolio/assets/privacyPolicy-d8943798.css"
+      "href": "/sySolidPortfolio/assets/privacyPolicy-40c26bd1.css"
     }
   ],
   "entry-client": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-b12b8153.js"
+      "href": "/sySolidPortfolio/assets/entry-client-7ceddd82.js"
     }
   ],
   "index.html": []

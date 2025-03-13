@@ -1,13 +1,6 @@
 {
-  "_bowser-269eb377.js": {
-    "file": "assets/bowser-269eb377.js"
-  },
-  "bbq.css": {
-    "file": "assets/bbq-a032d1b5.css",
-    "src": "bbq.css"
-  },
   "privacyPolicy.css": {
-    "file": "assets/privacyPolicy-d8943798.css",
+    "file": "assets/privacyPolicy-40c26bd1.css",
     "src": "privacyPolicy.css"
   },
   "src/entry-client.tsx": {
@@ -15,20 +8,18 @@
       "src/routes/IdleInfluencerPrivacyPolicy.tsx",
       "src/routes/IdleTrillionairePrivacyPolicy.tsx",
       "src/routes/TurnBasedBoxingPrivacyPolicy.tsx",
-      "src/routes/bbq.tsx",
-      "src/routes/bbq2024.tsx",
       "src/routes/index.tsx",
       "src/routes/lmsDominatorCompantionPrivacyPolicy.tsx"
     ],
-    "file": "assets/entry-client-b12b8153.js",
+    "file": "assets/entry-client-7ceddd82.js",
     "isEntry": true,
     "src": "src/entry-client.tsx"
   },
   "src/routes/IdleInfluencerPrivacyPolicy.tsx": {
     "css": [
-      "assets/privacyPolicy-d8943798.css"
+      "assets/privacyPolicy-40c26bd1.css"
     ],
-    "file": "assets/IdleInfluencerPrivacyPolicy-3e3a32e3.js",
+    "file": "assets/IdleInfluencerPrivacyPolicy-4e99da1b.js",
     "imports": [
       "src/entry-client.tsx"
     ],
@@ -37,9 +28,9 @@
   },
   "src/routes/IdleTrillionairePrivacyPolicy.tsx": {
     "css": [
-      "assets/privacyPolicy-d8943798.css"
+      "assets/privacyPolicy-40c26bd1.css"
     ],
-    "file": "assets/IdleTrillionairePrivacyPolicy-562773f7.js",
+    "file": "assets/IdleTrillionairePrivacyPolicy-4d5ab8f4.js",
     "imports": [
       "src/entry-client.tsx"
     ],
@@ -48,59 +39,35 @@
   },
   "src/routes/TurnBasedBoxingPrivacyPolicy.tsx": {
     "css": [
-      "assets/privacyPolicy-d8943798.css"
+      "assets/privacyPolicy-40c26bd1.css"
     ],
-    "file": "assets/TurnBasedBoxingPrivacyPolicy-dcedb4f0.js",
+    "file": "assets/TurnBasedBoxingPrivacyPolicy-abceb7aa.js",
     "imports": [
       "src/entry-client.tsx"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/TurnBasedBoxingPrivacyPolicy.tsx"
   },
-  "src/routes/bbq.tsx": {
-    "css": [
-      "assets/bbq-a032d1b5.css"
-    ],
-    "file": "assets/bbq-9feb09fd.js",
-    "imports": [
-      "src/entry-client.tsx",
-      "_bowser-269eb377.js"
-    ],
-    "isDynamicEntry": true,
-    "src": "src/routes/bbq.tsx"
-  },
-  "src/routes/bbq2024.tsx": {
-    "css": [
-      "assets/bbq-a032d1b5.css"
-    ],
-    "file": "assets/bbq2024-d7c7cf22.js",
-    "imports": [
-      "src/entry-client.tsx"
-    ],
-    "isDynamicEntry": true,
-    "src": "src/routes/bbq2024.tsx"
-  },
   "src/routes/index.css": {
-    "file": "assets/index-0844912c.css",
+    "file": "assets/index-3ce3df60.css",
     "src": "src/routes/index.css"
   },
   "src/routes/index.tsx": {
     "css": [
-      "assets/index-0844912c.css"
+      "assets/index-3ce3df60.css"
     ],
-    "file": "assets/index-2d530a90.js",
+    "file": "assets/index-c176ffad.js",
     "imports": [
-      "src/entry-client.tsx",
-      "_bowser-269eb377.js"
+      "src/entry-client.tsx"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/index.tsx"
   },
   "src/routes/lmsDominatorCompantionPrivacyPolicy.tsx": {
     "css": [
-      "assets/privacyPolicy-d8943798.css"
+      "assets/privacyPolicy-40c26bd1.css"
     ],
-    "file": "assets/lmsDominatorCompantionPrivacyPolicy-48404e82.js",
+    "file": "assets/lmsDominatorCompantionPrivacyPolicy-ee339b68.js",
     "imports": [
       "src/entry-client.tsx"
     ],
