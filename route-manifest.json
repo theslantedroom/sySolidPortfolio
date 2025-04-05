@@ -2,11 +2,11 @@
   "/IdleInfluencerPrivacyPolicy": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/IdleInfluencerPrivacyPolicy-342e6717.js"
+      "href": "/sySolidPortfolio/assets/IdleInfluencerPrivacyPolicy-35447c63.js"
     },
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-ca58bbe1.js"
+      "href": "/sySolidPortfolio/assets/entry-client-70ec0c65.js"
     },
     {
       "type": "style",
@@ -16,11 +16,11 @@
   "/IdleTrillionairePrivacyPolicy": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/IdleTrillionairePrivacyPolicy-fc36c56e.js"
+      "href": "/sySolidPortfolio/assets/IdleTrillionairePrivacyPolicy-c23c1448.js"
     },
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-ca58bbe1.js"
+      "href": "/sySolidPortfolio/assets/entry-client-70ec0c65.js"
     },
     {
       "type": "style",
@@ -30,11 +30,11 @@
   "/TurnBasedBoxingPrivacyPolicy": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/TurnBasedBoxingPrivacyPolicy-92c5fcb5.js"
+      "href": "/sySolidPortfolio/assets/TurnBasedBoxingPrivacyPolicy-b0ce8074.js"
     },
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-ca58bbe1.js"
+      "href": "/sySolidPortfolio/assets/entry-client-70ec0c65.js"
     },
     {
       "type": "style",
@@ -44,25 +44,25 @@
   "/": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/index-8c59e695.js"
+      "href": "/sySolidPortfolio/assets/index-7e9c063d.js"
     },
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-ca58bbe1.js"
+      "href": "/sySolidPortfolio/assets/entry-client-70ec0c65.js"
     },
     {
       "type": "style",
-      "href": "/sySolidPortfolio/assets/index-7d21f869.css"
+      "href": "/sySolidPortfolio/assets/index-c7967cbf.css"
     }
   ],
   "/lmsDominatorCompantionPrivacyPolicy": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/lmsDominatorCompantionPrivacyPolicy-16232f35.js"
+      "href": "/sySolidPortfolio/assets/lmsDominatorCompantionPrivacyPolicy-d5a3752e.js"
     },
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-ca58bbe1.js"
+      "href": "/sySolidPortfolio/assets/entry-client-70ec0c65.js"
     },
     {
       "type": "style",
@@ -72,7 +72,7 @@
   "entry-client": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-ca58bbe1.js"
+      "href": "/sySolidPortfolio/assets/entry-client-70ec0c65.js"
     }
   ],
   "index.html": []
