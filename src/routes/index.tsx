@@ -36,15 +36,15 @@ export default function Home() {
       <AboutMe />
 
             {/* Embed an iframe under AboutMe */}
-      <iframe
+      {/* <iframe
         src="https://www.theslantedroom.ca/" // Replace with the desired URL
         width="100%"
         height="500px"
         style={{ border: 'none' }}
         title="Embedded Content"
-      ></iframe>
+      ></iframe> */}
       {/* <WebDev /> */}
-      {/* <SoundEngineer /> */}
+      <SoundEngineer />
       <Composer />
     </main>
   );

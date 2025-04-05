@@ -7,7 +7,7 @@ interface Props {
 }
 
 const Composer: Component<Props> = ({
-  about = "",
+  about = "Cinematic Fantasy, Gangster Rap, Love songs",
 }): JSX.Element => {
   return (
     <div class={styles.container}>

@@ -11,10 +11,8 @@ const SoundEngineer: Component<Props> = ({}): JSX.Element => {
 
       <p
         class={styles.aboutText}
-      >{`I have over 15 years experience mixing FOH and Monitors for concerts, comedians, musical theater, touring bands and music festivals. `}</p>
-      <p
-        class={styles.aboutText}
-      >{`I have been producing, writing, recording, editing, mixing and mastering in studio as well.`}</p>
+      >{`Front of House, Monitors, System Tech, Consultation.`}</p>
+ 
       <img src="img/concertbanner.jpg" alt="concert" class={styles.image} />
     </div>
   );
