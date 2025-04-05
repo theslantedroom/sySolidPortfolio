@@ -11,7 +11,7 @@
       "src/routes/index.tsx",
       "src/routes/lmsDominatorCompantionPrivacyPolicy.tsx"
     ],
-    "file": "assets/entry-client-7ceddd82.js",
+    "file": "assets/entry-client-ca58bbe1.js",
     "isEntry": true,
     "src": "src/entry-client.tsx"
   },
@@ -19,7 +19,7 @@
     "css": [
       "assets/privacyPolicy-40c26bd1.css"
     ],
-    "file": "assets/IdleInfluencerPrivacyPolicy-4e99da1b.js",
+    "file": "assets/IdleInfluencerPrivacyPolicy-342e6717.js",
     "imports": [
       "src/entry-client.tsx"
     ],
@@ -30,7 +30,7 @@
     "css": [
       "assets/privacyPolicy-40c26bd1.css"
     ],
-    "file": "assets/IdleTrillionairePrivacyPolicy-4d5ab8f4.js",
+    "file": "assets/IdleTrillionairePrivacyPolicy-fc36c56e.js",
     "imports": [
       "src/entry-client.tsx"
     ],
@@ -41,7 +41,7 @@
     "css": [
       "assets/privacyPolicy-40c26bd1.css"
     ],
-    "file": "assets/TurnBasedBoxingPrivacyPolicy-abceb7aa.js",
+    "file": "assets/TurnBasedBoxingPrivacyPolicy-92c5fcb5.js",
     "imports": [
       "src/entry-client.tsx"
     ],
@@ -49,14 +49,14 @@
     "src": "src/routes/TurnBasedBoxingPrivacyPolicy.tsx"
   },
   "src/routes/index.css": {
-    "file": "assets/index-3ce3df60.css",
+    "file": "assets/index-7d21f869.css",
     "src": "src/routes/index.css"
   },
   "src/routes/index.tsx": {
     "css": [
-      "assets/index-3ce3df60.css"
+      "assets/index-7d21f869.css"
     ],
-    "file": "assets/index-c176ffad.js",
+    "file": "assets/index-8c59e695.js",
     "imports": [
       "src/entry-client.tsx"
     ],
@@ -67,7 +67,7 @@
     "css": [
       "assets/privacyPolicy-40c26bd1.css"
     ],
-    "file": "assets/lmsDominatorCompantionPrivacyPolicy-ee339b68.js",
+    "file": "assets/lmsDominatorCompantionPrivacyPolicy-16232f35.js",
     "imports": [
       "src/entry-client.tsx"
     ],

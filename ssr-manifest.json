@@ -14,36 +14,36 @@
   "node_modules/@solidjs/router/dist/utils.js": [
   ],
   "node_modules/bowser/src/bowser.js": [
-    "/sySolidPortfolio/assets/index-c176ffad.js",
-    "/sySolidPortfolio/assets/index-3ce3df60.css"
+    "/sySolidPortfolio/assets/index-8c59e695.js",
+    "/sySolidPortfolio/assets/index-7d21f869.css"
   ],
   "node_modules/bowser/src/constants.js": [
-    "/sySolidPortfolio/assets/index-c176ffad.js",
-    "/sySolidPortfolio/assets/index-3ce3df60.css"
+    "/sySolidPortfolio/assets/index-8c59e695.js",
+    "/sySolidPortfolio/assets/index-7d21f869.css"
   ],
   "node_modules/bowser/src/parser-browsers.js": [
-    "/sySolidPortfolio/assets/index-c176ffad.js",
-    "/sySolidPortfolio/assets/index-3ce3df60.css"
+    "/sySolidPortfolio/assets/index-8c59e695.js",
+    "/sySolidPortfolio/assets/index-7d21f869.css"
   ],
   "node_modules/bowser/src/parser-engines.js": [
-    "/sySolidPortfolio/assets/index-c176ffad.js",
-    "/sySolidPortfolio/assets/index-3ce3df60.css"
+    "/sySolidPortfolio/assets/index-8c59e695.js",
+    "/sySolidPortfolio/assets/index-7d21f869.css"
   ],
   "node_modules/bowser/src/parser-os.js": [
-    "/sySolidPortfolio/assets/index-c176ffad.js",
-    "/sySolidPortfolio/assets/index-3ce3df60.css"
+    "/sySolidPortfolio/assets/index-8c59e695.js",
+    "/sySolidPortfolio/assets/index-7d21f869.css"
   ],
   "node_modules/bowser/src/parser-platforms.js": [
-    "/sySolidPortfolio/assets/index-c176ffad.js",
-    "/sySolidPortfolio/assets/index-3ce3df60.css"
+    "/sySolidPortfolio/assets/index-8c59e695.js",
+    "/sySolidPortfolio/assets/index-7d21f869.css"
   ],
   "node_modules/bowser/src/parser.js": [
-    "/sySolidPortfolio/assets/index-c176ffad.js",
-    "/sySolidPortfolio/assets/index-3ce3df60.css"
+    "/sySolidPortfolio/assets/index-8c59e695.js",
+    "/sySolidPortfolio/assets/index-7d21f869.css"
   ],
   "node_modules/bowser/src/utils.js": [
-    "/sySolidPortfolio/assets/index-c176ffad.js",
-    "/sySolidPortfolio/assets/index-3ce3df60.css"
+    "/sySolidPortfolio/assets/index-8c59e695.js",
+    "/sySolidPortfolio/assets/index-7d21f869.css"
   ],
   "node_modules/solid-js/dist/solid.js": [
   ],
@@ -66,79 +66,59 @@
   "node_modules/solid-start/server/types.tsx": [
   ],
   "src/components/AboutMe/AboutMe.module.css?used": [
-    "/sySolidPortfolio/assets/index-c176ffad.js",
-    "/sySolidPortfolio/assets/index-3ce3df60.css"
+    "/sySolidPortfolio/assets/index-8c59e695.js",
+    "/sySolidPortfolio/assets/index-7d21f869.css"
   ],
   "src/components/AboutMe/AboutMe.tsx": [
-    "/sySolidPortfolio/assets/index-c176ffad.js",
-    "/sySolidPortfolio/assets/index-3ce3df60.css"
+    "/sySolidPortfolio/assets/index-8c59e695.js",
+    "/sySolidPortfolio/assets/index-7d21f869.css"
   ],
   "src/components/Composer/Composer.module.css?used": [
-    "/sySolidPortfolio/assets/index-c176ffad.js",
-    "/sySolidPortfolio/assets/index-3ce3df60.css"
+    "/sySolidPortfolio/assets/index-8c59e695.js",
+    "/sySolidPortfolio/assets/index-7d21f869.css"
   ],
   "src/components/Composer/Composer.tsx": [
-    "/sySolidPortfolio/assets/index-c176ffad.js",
-    "/sySolidPortfolio/assets/index-3ce3df60.css"
+    "/sySolidPortfolio/assets/index-8c59e695.js",
+    "/sySolidPortfolio/assets/index-7d21f869.css"
   ],
   "src/components/LinkWord/LinkWord.tsx": [
-    "/sySolidPortfolio/assets/index-c176ffad.js",
-    "/sySolidPortfolio/assets/index-3ce3df60.css"
+    "/sySolidPortfolio/assets/index-8c59e695.js",
+    "/sySolidPortfolio/assets/index-7d21f869.css"
   ],
   "src/components/ParticleBanner/ParticleBanner.module.css?used": [
-    "/sySolidPortfolio/assets/index-c176ffad.js",
-    "/sySolidPortfolio/assets/index-3ce3df60.css"
+    "/sySolidPortfolio/assets/index-8c59e695.js",
+    "/sySolidPortfolio/assets/index-7d21f869.css"
   ],
   "src/components/ParticleBanner/ParticleBanner.tsx": [
-    "/sySolidPortfolio/assets/index-c176ffad.js",
-    "/sySolidPortfolio/assets/index-3ce3df60.css"
-  ],
-  "src/components/ProjectCard/ProjectCard.module.css?used": [
-    "/sySolidPortfolio/assets/index-c176ffad.js",
-    "/sySolidPortfolio/assets/index-3ce3df60.css"
-  ],
-  "src/components/ProjectCard/ProjectCard.tsx": [
-    "/sySolidPortfolio/assets/index-c176ffad.js",
-    "/sySolidPortfolio/assets/index-3ce3df60.css"
-  ],
-  "src/components/WebDev/WebDev.module.css?used": [
-    "/sySolidPortfolio/assets/index-c176ffad.js",
-    "/sySolidPortfolio/assets/index-3ce3df60.css"
-  ],
-  "src/components/WebDev/WebDev.tsx": [
-    "/sySolidPortfolio/assets/index-c176ffad.js",
-    "/sySolidPortfolio/assets/index-3ce3df60.css"
-  ],
-  "src/constants/projects.ts": [
-    "/sySolidPortfolio/assets/index-c176ffad.js",
-    "/sySolidPortfolio/assets/index-3ce3df60.css"
+    "/sySolidPortfolio/assets/index-8c59e695.js",
+    "/sySolidPortfolio/assets/index-7d21f869.css"
   ],
   "src/entry-client.tsx": [
   ],
   "src/root.tsx": [
   ],
   "src/routes/IdleInfluencerPrivacyPolicy.tsx": [
-    "/sySolidPortfolio/assets/IdleInfluencerPrivacyPolicy-4e99da1b.js",
+    "/sySolidPortfolio/assets/IdleInfluencerPrivacyPolicy-342e6717.js",
     "/sySolidPortfolio/assets/privacyPolicy-40c26bd1.css"
   ],
   "src/routes/IdleTrillionairePrivacyPolicy.tsx": [
-    "/sySolidPortfolio/assets/IdleTrillionairePrivacyPolicy-4d5ab8f4.js",
+    "/sySolidPortfolio/assets/IdleTrillionairePrivacyPolicy-fc36c56e.js",
     "/sySolidPortfolio/assets/privacyPolicy-40c26bd1.css"
   ],
   "src/routes/TurnBasedBoxingPrivacyPolicy.tsx": [
-    "/sySolidPortfolio/assets/TurnBasedBoxingPrivacyPolicy-abceb7aa.js",
+    "/sySolidPortfolio/assets/TurnBasedBoxingPrivacyPolicy-92c5fcb5.js",
     "/sySolidPortfolio/assets/privacyPolicy-40c26bd1.css"
   ],
   "src/routes/index.css": [
-    "/sySolidPortfolio/assets/index-c176ffad.js",
-    "/sySolidPortfolio/assets/index-3ce3df60.css"
+    "/sySolidPortfolio/assets/index-8c59e695.js",
+    "/sySolidPortfolio/assets/index-7d21f869.css"
   ],
   "src/routes/index.tsx": [
-    "/sySolidPortfolio/assets/index-c176ffad.js",
-    "/sySolidPortfolio/assets/index-3ce3df60.css"
+    "/sySolidPortfolio/assets/index-8c59e695.js",
+    "/sySolidPortfolio/assets/index-7d21f869.css"
   ],
   "src/routes/lmsDominatorCompantionPrivacyPolicy.tsx": [
-    "/sySolidPortfolio/assets/lmsDominatorCompantionPrivacyPolicy-ee339b68.js",
+    "/sySolidPortfolio/assets/lmsDominatorCompantionPrivacyPolicy-16232f35.js",
     "/sySolidPortfolio/assets/privacyPolicy-40c26bd1.css"
   ]
 }
