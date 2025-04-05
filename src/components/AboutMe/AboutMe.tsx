@@ -6,7 +6,6 @@ const AboutMe = () => {
     <div class={styles.aboutContainer}>
       <div class={styles.aboutSection}>
         <div class={styles.noPadding}>
-          <span class={styles.aboutText}>{`The Slanted Room makes `}</span>
           <LinkWord text={"video games"} url={"#web-development-nav"} />
           <span class={styles.aboutText}>{`, `}</span>
           <LinkWord
@@ -23,7 +22,7 @@ const AboutMe = () => {
           <span class={styles.aboutText}>{`.`}</span>
         </div>
 
-        <img class={styles.aboutImage} src={"img/pic1.png"} alt="profile img" />
+        {/* <img class={styles.aboutImage} src={"img/pic1.png"} alt="profile img" /> */}
       </div>
 
       <div class={styles.aboutSection}>

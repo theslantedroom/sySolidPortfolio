@@ -3,6 +3,7 @@ import ParticleBanner from "~/components/ParticleBanner/ParticleBanner";
 import AboutMe from "~/components/AboutMe/AboutMe";
 import Composer from "~/components/Composer/Composer";
 import "./index.css";
+import SoundEngineer from "../components/SoundEngineer/SoundEngineer";
 
 export default function Home() {
   return (
@@ -33,7 +34,16 @@ export default function Home() {
       ></link>
       <ParticleBanner />
       <AboutMe />
-      <WebDev />
+
+            {/* Embed an iframe under AboutMe */}
+      <iframe
+        src="https://www.theslantedroom.ca/" // Replace with the desired URL
+        width="100%"
+        height="500px"
+        style={{ border: 'none' }}
+        title="Embedded Content"
+      ></iframe>
+      {/* <WebDev /> */}
       {/* <SoundEngineer /> */}
       <Composer />
     </main>
