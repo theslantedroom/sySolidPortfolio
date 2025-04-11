@@ -5,23 +5,32 @@ const AboutMe = () => {
 	return (
 		<div class={styles.aboutContainer}>
 			<div class={styles.aboutSection}>
-				{/* <div class={styles.noPadding}>
-          <LinkWord text={"software"} url={"https://www.theslantedroom.ca/"} />
-          <span class={styles.aboutText}>{`, `}</span>
-          <LinkWord
-            text={"music"}
-            url={"https://www.pond5.com/artist/theslantedroom"}
-          />
-          <span class={styles.aboutText}>{`, `}</span>
-          <LinkWord
-            text={"board games"}
-            url={
-              "https://www.thegamecrafter.com/games/last-man-standing-definitive-edition"
-            }
-          />
-          <span class={styles.aboutText}>{`.`}</span>
-        </div> */}
-				<LinkWord text={""} url={"https://www.theslantedroom.ca/"} />
+				<div class={styles.noPadding}>
+					Use your
+					<span class={styles.aboutText}>{` `}</span>
+					<LinkWord
+						text={"ears"}
+						url={"https://www.pond5.com/artist/theslantedroom"}
+					/>
+					<span class={styles.aboutText}>{` `}</span>
+					it's
+					<span class={styles.aboutText}>{` `}</span>
+					<LinkWord
+						text={"music"}
+						url={"https://www.pond5.com/artist/theslantedroom"}
+					/>
+					<span class={styles.aboutText}>{`.`}</span>
+				</div>
+				<div class={styles.noPadding}>
+					Play my
+					<span class={styles.aboutText}>{` `}</span>
+					<LinkWord text={"games"} url={"https://www.theslantedroom.ca/"} />
+					<span class={styles.aboutText}>{` `}</span>
+					it's
+					<span class={styles.aboutText}>{` `}</span>
+					<LinkWord text={"fun"} url={"https://www.theslantedroom.ca/"} />
+					<span class={styles.aboutText}>{`.`}</span>
+				</div>
 				{/* <img class={styles.aboutImage} src={"img/bacon_heaven.png"} alt="profile img" /> */}
 				{/* <img class={styles.aboutImage} src={"img/canadian_men_bbq.png"} alt="profile img" /> */}
 			</div>

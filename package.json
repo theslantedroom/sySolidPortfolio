@@ -10,6 +10,7 @@
     "check-versions": "npx npm-check-updates -p yarn"
   },
   "devDependencies": {
+    "@biomejs/biome": "1.9.4",
     "@solidjs/meta": "^0.28.2",
     "@solidjs/router": "^0.8.2",
     "@vitest/coverage-c8": "^0.26.3",
