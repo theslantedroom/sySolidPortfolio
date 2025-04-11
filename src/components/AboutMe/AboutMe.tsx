@@ -2,10 +2,10 @@ import LinkWord from "../LinkWord/LinkWord";
 import styles from "./AboutMe.module.css";
 
 const AboutMe = () => {
-  return (
-    <div class={styles.aboutContainer}>
-      <div class={styles.aboutSection}>
-        <div class={styles.noPadding}>
+	return (
+		<div class={styles.aboutContainer}>
+			<div class={styles.aboutSection}>
+				{/* <div class={styles.noPadding}>
           <LinkWord text={"software"} url={"https://www.theslantedroom.ca/"} />
           <span class={styles.aboutText}>{`, `}</span>
           <LinkWord
@@ -20,17 +20,17 @@ const AboutMe = () => {
             }
           />
           <span class={styles.aboutText}>{`.`}</span>
-        </div>
+        </div> */}
+				<LinkWord text={""} url={"https://www.theslantedroom.ca/"} />
+				{/* <img class={styles.aboutImage} src={"img/bacon_heaven.png"} alt="profile img" /> */}
+				{/* <img class={styles.aboutImage} src={"img/canadian_men_bbq.png"} alt="profile img" /> */}
+			</div>
 
-        {/* <img class={styles.aboutImage} src={"img/bacon_heaven.png"} alt="profile img" /> */}
-        {/* <img class={styles.aboutImage} src={"img/canadian_men_bbq.png"} alt="profile img" /> */}
-      </div>
-
-      <div class={styles.aboutSection}>
-        <p class={styles.description}>steve@theslantedroom.ca</p>
-      </div>
-    </div>
-  );
+			<div class={styles.aboutSection}>
+				<p class={styles.description}>steve@theslantedroom.ca</p>
+			</div>
+		</div>
+	);
 };
 
 export default AboutMe;

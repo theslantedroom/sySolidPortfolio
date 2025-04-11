@@ -10,18 +10,14 @@
     "check-versions": "npx npm-check-updates -p yarn"
   },
   "devDependencies": {
-    "@eslint/js": "^9.6.0",
     "@solidjs/meta": "^0.28.2",
     "@solidjs/router": "^0.8.2",
     "@vitest/coverage-c8": "^0.26.3",
-    "eslint": "9.x",
     "globals": "^15.6.0",
     "jsdom": "^24.1.0",
     "solid-js": "^1.6.11",
     "solid-start": "^0.2.19",
     "solid-start-static": "^0.2.26",
-    "typescript": "^5.5.2",
-    "typescript-eslint": "^7.14.1",
     "vite": "^4.1.4"
   },
   "dependencies": {
