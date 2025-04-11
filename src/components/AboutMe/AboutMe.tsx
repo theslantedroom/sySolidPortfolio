@@ -10,14 +10,14 @@ const AboutMe = () => {
 					<span class={styles.aboutText}>{` `}</span>
 					<LinkWord
 						text={"ears"}
-						url={"https://www.pond5.com/artist/theslantedroom"}
+						url={"https://soundcloud.com/the-slanted-room"}
 					/>
 					<span class={styles.aboutText}>{` `}</span>
 					it's
 					<span class={styles.aboutText}>{` `}</span>
 					<LinkWord
 						text={"music"}
-						url={"https://www.pond5.com/artist/theslantedroom"}
+						url={"https://soundcloud.com/the-slanted-room"}
 					/>
 					<span class={styles.aboutText}>{`.`}</span>
 				</div>
