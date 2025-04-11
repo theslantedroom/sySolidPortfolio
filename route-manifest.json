@@ -2,11 +2,11 @@
   "/IdleInfluencerPrivacyPolicy": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/IdleInfluencerPrivacyPolicy-d621dc9f.js"
+      "href": "/sySolidPortfolio/assets/IdleInfluencerPrivacyPolicy-3039f626.js"
     },
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-2364ae43.js"
+      "href": "/sySolidPortfolio/assets/entry-client-59053eab.js"
     },
     {
       "type": "style",
@@ -16,11 +16,11 @@
   "/IdleTrillionairePrivacyPolicy": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/IdleTrillionairePrivacyPolicy-83af994a.js"
+      "href": "/sySolidPortfolio/assets/IdleTrillionairePrivacyPolicy-2b8bf91e.js"
     },
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-2364ae43.js"
+      "href": "/sySolidPortfolio/assets/entry-client-59053eab.js"
     },
     {
       "type": "style",
@@ -30,11 +30,11 @@
   "/TurnBasedBoxingPrivacyPolicy": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/TurnBasedBoxingPrivacyPolicy-2b08f5cb.js"
+      "href": "/sySolidPortfolio/assets/TurnBasedBoxingPrivacyPolicy-e5725e72.js"
     },
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-2364ae43.js"
+      "href": "/sySolidPortfolio/assets/entry-client-59053eab.js"
     },
     {
       "type": "style",
@@ -44,11 +44,11 @@
   "/": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/index-a3842d25.js"
+      "href": "/sySolidPortfolio/assets/index-eeae5ecd.js"
     },
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-2364ae43.js"
+      "href": "/sySolidPortfolio/assets/entry-client-59053eab.js"
     },
     {
       "type": "style",
@@ -58,11 +58,11 @@
   "/lmsDominatorCompantionPrivacyPolicy": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/lmsDominatorCompantionPrivacyPolicy-0d8b1b78.js"
+      "href": "/sySolidPortfolio/assets/lmsDominatorCompantionPrivacyPolicy-95627abb.js"
     },
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-2364ae43.js"
+      "href": "/sySolidPortfolio/assets/entry-client-59053eab.js"
     },
     {
       "type": "style",
@@ -72,7 +72,7 @@
   "entry-client": [
     {
       "type": "script",
-      "href": "/sySolidPortfolio/assets/entry-client-2364ae43.js"
+      "href": "/sySolidPortfolio/assets/entry-client-59053eab.js"
     }
   ],
   "index.html": []
