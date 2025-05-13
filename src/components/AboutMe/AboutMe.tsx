@@ -13,7 +13,7 @@ const AboutMe = () => {
 						url={"https://soundcloud.com/the-slanted-room"}
 					/>
 					<span class={styles.aboutText}>{` `}</span>
-					it's
+					play
 					<span class={styles.aboutText}>{` `}</span>
 					<LinkWord
 						text={"music"}
@@ -22,11 +22,11 @@ const AboutMe = () => {
 					<span class={styles.aboutText}>{`.`}</span>
 				</div>
 				<div class={styles.noPadding}>
-					Play my
+					Play
 					<span class={styles.aboutText}>{` `}</span>
 					<LinkWord text={"games"} url={"https://www.theslantedroom.ca/"} />
 					<span class={styles.aboutText}>{` `}</span>
-					it's
+					have
 					<span class={styles.aboutText}>{` `}</span>
 					<LinkWord text={"fun"} url={"https://www.theslantedroom.ca/"} />
 					<span class={styles.aboutText}>{`.`}</span>
