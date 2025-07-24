@@ -44,6 +44,7 @@
 				"noEmptyInterface": "off",
 				"noArrayIndexKey": "off",
 				"noPrototypeBuiltins": "off",
+				"noShorthandPropertyOverrides": "off",
 				"noExplicitAny": "off"
 			},
 			"complexity": {

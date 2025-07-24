@@ -6,9 +6,7 @@ interface Props {
 	about?: string;
 }
 
-const Composer: Component<Props> = ({
-	about = "Cinematic Fantasy, Gangster Rap, World, EDM",
-}): JSX.Element => {
+const Composer: Component<Props> = ({ about = "" }): JSX.Element => {
 	return (
 		<div class={styles.container}>
 			<h1 class={styles.aboutTitle}>Music</h1>
